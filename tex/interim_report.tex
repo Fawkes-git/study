@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{jarticle}
+\usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=20truemm]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+
+%%%%%%修論（上の部分がこれになる）%%%%%
+%\documentclass[a4paper,10pt,oneside,openany]{jsbook}
+%\bibliographystyle{junsrt}  % 電子情報通信学会の論文誌スタイルになってる
+%\bibliographystyle{jplain}
+%\usepackage{amsmath,amssymb}
+%\usepackage{bm}
+%\usepackage{epsbox}  %図表貼りつけ関連.epsファイルを扱う
+%\usepackage[dvipdfmx]{graphicx}
+%\usepackage{verbatim}
+%\usepackage{wrapfig}
+%\usepackage{ascmac}
+%\usepackage{makeidx}
+%\usepackage{here}
+%%%%%%%%%%%%%%%%%%%%%
+
+
+%セクション，サブセクションの文字の大きさ
+\makeatletter
+\def\thefigure{\thesection.\arabic{figure}}
+\@addtoreset{figure}{section}
+\@addtoreset{equation}{section}
+\def\theequation{\thesection.\arabic{equation}}
+
+\def\teach#1{\def\@teach{#1}}
+\def\id#1{\def\@id{#1}}
+\def\department#1{\def\@department{#1}}
+
+\def\maketitle{
+\thispagestyle{empty}
+\begin{flushright}
+{\Large \@date \par}		% 提出年月日部分
+{\Large \@author \par}		% 氏名 
+\end{flushright}
+\begin{center}
+{\Large \@title \par}		% 論文のタイトル部分
+
+\end{center}
+\par\vskip 1.5em
+}
+\makeatother
+
+
+
+\title{修士中間報告\\ 深度センサを用いた運動機能定量化システムの検討}
+\author{近藤研究室　16646140　吉田 大峰}
+\date{2017/09/29}
+
+
+\begin{document}
+\maketitle
+\section{研究の背景と目的}
+
+\section{小脳疾患の症候}%ほんとはsubsection
+
+\section{追跡課題によるマニピュランダムを用いた定量化システム}%ほんとはsubsection
+
+
+
+
+
+%\newpage
+\section{修士論文構成案}
+以下に修士論文文章構成案を示す．\\
+\noindent
+第一章 序論\\
+\hspace{0.5cm}1-1 背景と目的\\
+\hspace{0.5cm}1-2 論文構成\\
+第二章 理論\\
+\hspace{0.5cm}2-1 運動機能定量化システム\\
+\hspace{0.5cm}2-2 小脳疾患患者およびジストニア患者\\
+\hspace{0.5cm}2-3 Kinect v2\\
+第三章 本システム\\
+\hspace{0.5cm}3-1 システム構成および実験環境\\
+\hspace{0.5cm}3-2 評価方法\\
+第四章 実験\\
+第五章 実験結果\\
+第六章 考察\\
+第七章 まとめ\\
+\hspace{0.5cm}7-1 まとめ\\
+\hspace{0.5cm}7-2 今後の展望\\
+謝辞\\
+参考文献
+
+
+
+
+\begin{thebibliography}{15}
+\bibitem{Schmitz2006}
+Schmitz-Hubsch T, du Montcel ST, Baliko L, et al:Scale for the assessment and rating of ataxia: development of a new clinical scale. Neurology 66: 1717-1720,2006.
+
+\end{thebibliography}
+\end{document}
