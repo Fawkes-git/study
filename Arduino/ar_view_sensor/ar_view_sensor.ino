@@ -14,5 +14,5 @@ void loop() {
     Serial.print('\t');
   }
   Serial.println();
-  delay(100);
+  delay(40);
 }
