@@ -1,0 +1,16 @@
+# Fdb version 3
+["dvipdf"] 1545395241 "ch2.dvi" "ch2.pdf" "ch2" 1545395242
+  "ch2.dvi" 1545395241 6680 266a04f249050fa72945e138eab91585 "latex"
+  (generated)
+  "ch2.pdf"
+["latex"] 1545395241 "ch2.tex" "ch2.dvi" "ch2" 1545395242
+  "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1537143692 4475037 a2abdfe1eda95f1c55babfe94029f4d6 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "ch2.aux" 1545395241 8 a94a2480d3289e625eea47cd1b285758 ""
+  "ch2.tex" 1545395240 3932 996eccb0645fceb5b73aa9915add60a7 ""
+  (generated)
+  "ch2.log"
+  "ch2.dvi"

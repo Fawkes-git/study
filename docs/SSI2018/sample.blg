@@ -1,0 +1,50 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: sample.aux
+The style file: jplain.bst
+Database file #1: library.bib
+Warning--empty journal in Valtin2017
+Warning--empty journal in Recognition2017
+You've used 10 entries,
+            2620 wiz_defined-function locations,
+            668 strings with 6728 characters,
+and the built_in function-call counts, 5533 in all, are:
+= -- 496
+> -- 225
+< -- 28
++ -- 92
+- -- 82
+* -- 379
+:= -- 739
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 71
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 267
+empty$ -- 393
+format.name$ -- 123
+if$ -- 1259
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 10
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 87
+preamble$ -- 1
+purify$ -- 61
+quote$ -- 0
+skip$ -- 265
+stack$ -- 0
+substring$ -- 335
+swap$ -- 108
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 2
+while$ -- 47
+width$ -- 12
+write$ -- 110
+is.kanji.str$ -- 138
+(There were 2 warnings)

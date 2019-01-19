@@ -1,0 +1,14 @@
+# Fdb version 3
+["dvipdf"] 1545293818 "title.dvi" "title.pdf" "title" 1545293818
+  "title.dvi" 1545293818 868 7c66b4beb07b03e36dd8c86b18fc6090 "latex"
+  (generated)
+  "title.pdf"
+["latex"] 1545293818 "title.tex" "title.dvi" "title" 1545293818
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1537143692 4475037 a2abdfe1eda95f1c55babfe94029f4d6 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "title.aux" 1545293818 8 a94a2480d3289e625eea47cd1b285758 ""
+  "title.tex" 1545293818 755 45e2e08fdfff653a2c2c26e3f1e8d52d ""
+  (generated)
+  "title.log"
+  "title.dvi"

@@ -1,7 +1,6 @@
 #include <SPI.h>
 #include <SD.h>
 
-
 // Set the pins used
 #define cardSelect 4
 unsigned long time;
@@ -52,7 +51,7 @@ void setup() {
   }
 
   logfile = SD.open(filename, FILE_WRITE);
-  logfile.println("Time\tVolt");
+  logfile.println("Time\tVolt\tXaxis\tYaxis\tZaxis");
   if( ! logfile ) {
     Serial.print("Couldnt create "); 
     Serial.println(filename);
@@ -66,20 +65,22 @@ void setup() {
   Serial.println("Ready!");
 }
 
-uint8_t i=0;
 void loop() {
-  time = micros()/100000;
-  if(time < 50) {
-    digitalWrite(13, HIGH);
-  }else{
-    digitalWrite(13, LOW);
-  }
-  Serial.print(time);
-  Serial.print("\t"); 
+  //time = micros()/100000; 
+  time = millis(); 
+
+  //Serial.print(time);
+  //Serial.print("\t"); 
+  //Serial.println(analogRead(0));
   logfile.print(time);
   logfile.print("\t");
-  logfile.println(analogRead(0));
+  logfile.print(analogRead(0));
+  logfile.print("\t");
+  logfile.print(analogRead(3));
+  logfile.print("\t");
+  logfile.print(analogRead(4));
+  logfile.print("\t");
+  logfile.println(analogRead(5));
   logfile.flush();
-  Serial.println(analogRead(0));
-  delay(40);
+  delay(10); //10ms delay
 }

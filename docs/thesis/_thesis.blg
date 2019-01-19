@@ -1,0 +1,69 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: _thesis.aux
+The style file: junsrt.bst
+A level-1 auxiliary file: _ch1.aux
+A level-1 auxiliary file: _ch2.aux
+A level-1 auxiliary file: _ch3.aux
+Illegal, another \bibstyle command---line 6 of file _thesis.aux
+ : \bibstyle
+ :          {jplain}
+I'm skipping whatever remains of this command
+Database file #1: library.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Zeiler2017
+Name 3 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
+while executing---line 1216 of file junsrt.bst
+Name 3 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
+while executing---line 1216 of file junsrt.bst
+Name 4 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
+while executing---line 1216 of file junsrt.bst
+Name 4 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
+while executing---line 1216 of file junsrt.bst
+Warning--empty journal in Recognition2017
+Warning--empty journal in Valtin2017
+Warning--there's a number but no volume in Ren2011
+Warning--there's a number but no volume in Lin2015
+You've used 23 entries,
+            2270 wiz_defined-function locations,
+            715 strings with 9381 characters,
+and the built_in function-call counts, 9579 in all, are:
+= -- 780
+> -- 308
+< -- 65
++ -- 118
+- -- 95
+* -- 610
+:= -- 1123
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 572
+empty$ -- 808
+format.name$ -- 190
+if$ -- 2353
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 23
+newline$ -- 118
+num.names$ -- 23
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 494
+stack$ -- 0
+substring$ -- 628
+swap$ -- 251
+text.length$ -- 65
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 85
+width$ -- 25
+write$ -- 252
+is.kanji.str$ -- 318
+(There were 5 error messages)

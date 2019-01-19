@@ -12,14 +12,14 @@ if not(os.path.exists(path)):
     file.write('Time'+'\t'+'Volt'+'\t'+'Marker'+'\n')
     file.close()
 '''
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 #width = 640
 #height = 480
-#width = 1280
-#height = 960
-width = 1920
-height = 1080
+width = 1280
+height = 960
+#width = 1920
+#height = 1080
 
 
 fps = 25
@@ -141,7 +141,7 @@ def main():
     cv2.destroyAllWindows()
 
 if __name__=='__main__':
-    thread_1 = threading.Thread(target=main)
+    #thread_1 = threading.Thread(target=main)
     thread_2 = threading.Thread(target=serial_read)
-    thread_1.start()
+    #thread_1.start()
     thread_2.start()

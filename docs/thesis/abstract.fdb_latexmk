@@ -1,0 +1,14 @@
+# Fdb version 3
+["dvipdf"] 1546992617 "abstract.dvi" "abstract.pdf" "abstract" 1546992618
+  "abstract.dvi" 1546992617 6268 23af7f0941e13a6e704cd601cf65c6b9 "latex"
+  (generated)
+  "abstract.pdf"
+["latex"] 1546992617 "abstract.tex" "abstract.dvi" "abstract" 1546992618
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1537143692 4475037 a2abdfe1eda95f1c55babfe94029f4d6 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "abstract.aux" 1546992617 8 a94a2480d3289e625eea47cd1b285758 ""
+  "abstract.tex" 1546992617 3267 8ac1c1e054521dd94659fb99d405bffb ""
+  (generated)
+  "abstract.log"
+  "abstract.dvi"

@@ -1,0 +1,14 @@
+# Fdb version 3
+["dvipdf"] 1546994004 "_ch4.dvi" "_ch4.pdf" "_ch4" 1546994004
+  "_ch4.dvi" 1546994004 824 0e19a5f6755421b51a923f614423137d "latex"
+  (generated)
+  "_ch4.pdf"
+["latex"] 1546994004 "_ch4.tex" "_ch4.dvi" "_ch4" 1546994004
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1537143692 4475037 a2abdfe1eda95f1c55babfe94029f4d6 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "_ch4.aux" 1546994004 8 a94a2480d3289e625eea47cd1b285758 ""
+  "_ch4.tex" 1546994003 755 1e355aa8e2e74452ad6fa0948ac00840 ""
+  (generated)
+  "_ch4.dvi"
+  "_ch4.log"

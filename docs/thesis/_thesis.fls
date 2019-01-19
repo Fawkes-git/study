@@ -1,0 +1,258 @@
+PWD /Users/takato/study/docs/thesis
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf.cnf
+INPUT /usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt
+INPUT _thesis.tex
+OUTPUT _thesis.log
+INPUT /usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsbook.cls
+INPUT /usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsbook.cls
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/ascmac.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/ascmac.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/tascmac.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/ascmac/tascmac.sty
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/ascmac/ascgrp.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/makeidx.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+OUTPUT _thesis.idx
+INPUT _thesis.aux
+INPUT _thesis.aux
+INPUT _ch1.aux
+INPUT _ch1.aux
+INPUT _ch2.aux
+INPUT _ch2.aux
+INPUT _ch3.aux
+INPUT _ch3.aux
+OUTPUT _thesis.aux
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT _thesis.toc
+INPUT _thesis.toc
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+OUTPUT _thesis.toc
+OUTPUT _thesis.dvi
+OUTPUT _ch1.aux
+INPUT _ch1.tex
+INPUT _ch1.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT fig/ch1/babt.jpeg
+INPUT extractbb -B cropbox -O fig/ch1/babt.jpeg
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
+INPUT fig/ch1/nhpt.jpg
+INPUT extractbb -B cropbox -O fig/ch1/nhpt.jpg
+INPUT fig/ch1/ARAT_kit.jpg
+INPUT extractbb -B cropbox -O fig/ch1/ARAT_kit.jpg
+INPUT fig/ch1/ARAT_SCORING.jpg
+INPUT extractbb -B cropbox -O fig/ch1/ARAT_SCORING.jpg
+INPUT fig/ch1/mal.png
+INPUT extractbb -B cropbox -O fig/ch1/mal.png
+INPUT fig/ch1/amount.png
+INPUT extractbb -B cropbox -O fig/ch1/amount.png
+INPUT fig/ch1/how.png
+INPUT extractbb -B cropbox -O fig/ch1/how.png
+INPUT fig/ch1/acc.png
+INPUT extractbb -B cropbox -O fig/ch1/acc.png
+INPUT fig/ch1/dataglove.png
+INPUT extractbb -B cropbox -O fig/ch1/dataglove.png
+INPUT fig/ch1/mcs.png
+INPUT extractbb -B cropbox -O fig/ch1/mcs.png
+INPUT fig/ch1/manumeter.png
+INPUT extractbb -B cropbox -O fig/ch1/manumeter.png
+INPUT fig/ch1/btp.png
+INPUT extractbb -B cropbox -O fig/ch1/btp.png
+OUTPUT _ch2.aux
+INPUT _ch2.tex
+INPUT _ch2.tex
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+INPUT fig/principle.png
+INPUT extractbb -B cropbox -O fig/principle.png
+INPUT fig/fal6.png
+INPUT extractbb -B cropbox -O fig/fal6.png
+INPUT fig/fal7.png
+INPUT extractbb -B cropbox -O fig/fal7.png
+INPUT fig/fal3.png
+INPUT extractbb -B cropbox -O fig/fal3.png
+INPUT fig/fal1.png
+INPUT extractbb -B cropbox -O fig/fal1.png
+INPUT fig/fal4.png
+INPUT extractbb -B cropbox -O fig/fal4.png
+INPUT fig/test.pdf
+INPUT extractbb -B cropbox -O fig/test.pdf
+OUTPUT _ch3.aux
+INPUT _ch3.tex
+INPUT _ch3.tex
+INPUT fig/sensor.png
+INPUT extractbb -B cropbox -O fig/sensor.png
+INPUT fig/gesture.png
+INPUT extractbb -B cropbox -O fig/gesture.png
+INPUT fig/confusion_matrix.png
+INPUT extractbb -B cropbox -O fig/confusion_matrix.png
+INPUT fig/kotei.jpg
+INPUT extractbb -B cropbox -O fig/kotei.jpg
+INPUT fig/kotei1.png
+INPUT extractbb -B cropbox -O fig/kotei1.png
+INPUT fig/sub1.png
+INPUT extractbb -B cropbox -O fig/sub1.png
+INPUT fig/sub2.png
+INPUT extractbb -B cropbox -O fig/sub2.png
+INPUT fig/sub3.png
+INPUT extractbb -B cropbox -O fig/sub3.png
+INPUT fig/sub4.png
+INPUT extractbb -B cropbox -O fig/sub4.png
+INPUT fig/sub5.png
+INPUT extractbb -B cropbox -O fig/sub5.png
+INPUT fig/sub6.png
+INPUT extractbb -B cropbox -O fig/sub6.png
+INPUT fig/sub7.png
+INPUT extractbb -B cropbox -O fig/sub7.png
+INPUT fig/sub8.png
+INPUT extractbb -B cropbox -O fig/sub8.png
+INPUT fig/sub9.png
+INPUT extractbb -B cropbox -O fig/sub9.png
+INPUT fig/sub10.png
+INPUT extractbb -B cropbox -O fig/sub10.png
+INPUT fig/sub1r.png
+INPUT extractbb -B cropbox -O fig/sub1r.png
+INPUT fig/sub2r.png
+INPUT extractbb -B cropbox -O fig/sub2r.png
+INPUT fig/sub3r.png
+INPUT extractbb -B cropbox -O fig/sub3r.png
+INPUT fig/sub4r.png
+INPUT extractbb -B cropbox -O fig/sub4r.png
+INPUT fig/sub5r.png
+INPUT extractbb -B cropbox -O fig/sub5r.png
+INPUT fig/sub6r.png
+INPUT extractbb -B cropbox -O fig/sub6r.png
+INPUT fig/sub7r.png
+INPUT extractbb -B cropbox -O fig/sub7r.png
+INPUT fig/sub8r.png
+INPUT extractbb -B cropbox -O fig/sub8r.png
+INPUT fig/sub9r.png
+INPUT extractbb -B cropbox -O fig/sub9r.png
+INPUT fig/sub10r.png
+INPUT extractbb -B cropbox -O fig/sub10r.png
+INPUT fig/result.png
+INPUT extractbb -B cropbox -O fig/result.png
+INPUT _thesis.bbl
+INPUT _thesis.bbl
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT _thesis.aux
+INPUT _ch1.aux
+INPUT _ch1.aux
+INPUT _ch2.aux
+INPUT _ch2.aux
+INPUT _ch3.aux
+INPUT _ch3.aux

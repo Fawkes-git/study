@@ -1,0 +1,400 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"change_color"
+			],
+			[
+				"x",
+				"x_list"
+			],
+			[
+				"y",
+				"y_e"
+			],
+			[
+				"x_",
+				"x_current"
+			],
+			[
+				"y_",
+				"y_list"
+			],
+			[
+				"diff",
+				"diff_y"
+			],
+			[
+				"di",
+				"diff_y"
+			],
+			[
+				"d",
+				"diff_x"
+			],
+			[
+				"dif",
+				"diff_y"
+			],
+			[
+				"pre",
+				"pre_cent"
+			],
+			[
+				"p",
+				"pre_cent"
+			],
+			[
+				"pre_",
+				"pre_cent"
+			],
+			[
+				"frame",
+				"frame"
+			],
+			[
+				"fir",
+				"first_frame"
+			],
+			[
+				"gest",
+				"gesture"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_ch3.tex",
+			"settings":
+			{
+				"buffer_size": 6423,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Description"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/takato/study/docs/thesis"
+	],
+	"file_history":
+	[
+		"/Users/takato/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings",
+		"/Users/takato/study/docs/thesis/_ch5.tex",
+		"/Users/takato/study/docs/thesis/_ch4.tex",
+		"/Users/takato/study/docs/thesis/_ch3.tex",
+		"/Users/takato/study/docs/thesis/_ch2.tex",
+		"/Users/takato/study/docs/thesis/_ch1.tex",
+		"/Users/takato/study/docs/thesis/_thesis.tex",
+		"/Users/takato/study/docs/thesis/_ch1.aux",
+		"/Users/takato/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/takato/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/takato/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/takato/study/docs/thesis/_acknowledgments.tex",
+		"/Users/takato/study/docs/thesis/abstract.tex",
+		"/Users/takato/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/takato/study/docs/thesis/main.tex",
+		"/Users/takato/study/docs/thesis/main.log",
+		"/Users/takato/study/docs/thesis/title.tex",
+		"/Users/takato/study/docs/thesis/acknowledgments.tex",
+		"/Users/takato/study/docs/thesis/ch5.tex",
+		"/Users/takato/study/docs/thesis/ch4.tex",
+		"/Users/takato/study/docs/thesis/ch3.tex",
+		"/Users/takato/study/docs/thesis/ch2.tex",
+		"/Users/takato/study/docs/thesis/ch1.tex",
+		"/Users/takato/study/docs/SSI2018/sample.tex",
+		"/Users/takato/study/docs/thesis/title.",
+		"/Users/takato/Documents/tex/thesis/main.tex",
+		"/Users/takato/defp/data_entrepreneur/abstract_pitch_contest",
+		"/Users/takato/study/src/collect_data.py",
+		"/Users/takato/study/src/test.py",
+		"/Users/takato/defp/PBL_learning/tex/OSAmeetings.tex",
+		"/Users/takato/defp/PBL_learning/tex/Matsumoto_A0031460.tex",
+		"/Users/takato/defp/PBL_learning/src/homework.py",
+		"/Users/takato/defp/PBL_learning/src/copy_2.py",
+		"/Users/takato/defp/PBL_learning/homework.py",
+		"/Users/takato/defp/PBL_learning/src/copy.py",
+		"/Users/takato/Desktop/speech_script",
+		"/Users/takato/defp/PBL_learning/test.py",
+		"/Users/takato/defp/PBL_learning/hogehoge.py",
+		"/Users/takato/Downloads/study 3/trash/gesture_recognition.py",
+		"/Users/takato/Downloads/study 3/gesture_recognition.py",
+		"/Users/takato/Downloads/study 3/regression_linear.py",
+		"/Users/takato/Downloads/study 3/regression.py",
+		"/Users/takato/defp/data_entrepreneur/report/P11_report.txt",
+		"/Users/takato/defp/data_entrepreneur/report/P10_report.txt",
+		"/Users/takato/defp/data_entrepreneur/report/report_P10.txt",
+		"/Users/takato/defp/data_entrepreneur/P10_report",
+		"/Users/takato/kaggle/House_prices/data_description.txt",
+		"/Users/takato/Documents/tex/def/sample.tex",
+		"/Users/takato/Documents/tex/p5/sample.tex",
+		"/Users/takato/Documents/tex/SSI2018/sample.tex",
+		"/Users/takato/defp/ナイトレイ課題.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_ch3.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2819,
+								2819
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"is_init_dirty_state": false,
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 206.0
+	},
+	"pinned_build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
