@@ -35,54 +35,44 @@
 $r$はデバイス使用前に物差しやスケール等を用い測定しておく必要がある．$x$は本デバイスの赤外線距離センサによって測定，推定する．この$r,x$の二つのパラメータと式\ref{eq:theta}を用いることで，関節角度$\theta$を導出する．
 
 
-\section{ウェアラブルデバイスのハードウェア}
-本デバイスはLED(Osram SFH4550)とフォトトランジスタセンサ(Honeywell SD5410)で構成された赤外線距離センサを用いた指輪型のセンシング部と，手首に取り付けるデータ記録部から成るウェアラブルデバイスである．ウェアラブルデバイスをFig.\ref{fig:device}に示す．データ記録のため，マイコン基盤(Adafruit Faether M0)と32GBのSDcardを使用する．また，デバイスの電源として3.7V，400mAhのリポバッテリーを利用し，これにより24時間以上の連続電源供給が可能である．
 
-さらに，マイコン基盤に三軸加速度センサ(KXR94-2050)を追加した．赤外線距離センサと加速度センサからの信号は，信号の入力時間とともにマイコン基盤に接続されたmicro sdカードへ保存される．PCへUSB2.0 A Male Microケーブルで接続することで，本デバイスのリポバッテリーの充電と，Micro sdカードに記録されたデータの転送が可能である．
+\section{ウェアラブルデバイスのハードウェア}
+本デバイスは加速度計と赤外線距離センサの2つのセンシング部と，センシングされたデータを格納するデータ記録部からなるウェアラブルデバイスである．
+本研究で開発したウェアラブルデバイスをFig.\ref{fig:device}に示す．
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{fig/fal6}
+  \caption{Hardware of the wearable device}
+  \label{fig:device}
+\end{figure}
+
 
 本デバイスの指輪型の装着部分及び，バッテリーとマイコン基盤を収納するためのケースを3DCAD(Fusion 360)で設計し，3Dプリンタ(Dimension 1200es)で印刷し作成した．
 
+
+\subsection*{センシング部}
+距離計測と加速度計測を行うため，赤外線距離センサと加速度計の二つのセンサを利用した．
+\subsubsection*{赤外線距離センサ}
+指関節角度の変化をセンシングするため赤外線距離センサを使用した．
+赤外線距離センサは発光ダイオード(Osram SFH4550)とフォトトランジスタセンサ(Honeywell SD5410)で構成されている．
+赤外線距離センサは発光ダイオードが発光した際に出た光をフォトトランジスタで受光することで，距離を計測するセンサである．
+フォトトランジスタの受光量は，ランベルトの反射の性質を有し，光が反射物に反射し受光素子に当たるまでの距離と角度，反射物の反射率により決定される(逆自乗の法則)．そのため，センシングキャリブレーションを行った．センシングキャリブレーションに関しては後述する．
+外部から入る光によるノイズを抑えるため，発光ダイオードとフォトトランジスタはそれぞれ6$^\circ$と12$^\circ$の狭い視覚野を持つパーツを選定した．手指の関節角度を測定するため，赤外線距離センサを指に取り付ける必要がある．
+しかし，直接，テープや手袋などで赤外線距離センサを，ユーザの指に取り付けると，デバイスの装着や取り外しが煩雑になり，
+ユーザへの負担が大きくなる問題が生じる．そのため，指輪型のハードウェアへ赤外線距離センサを取り付けた．これにより，ユーザにかかるデバイスの着脱による負荷を低減した．指輪型のハードウェアは3次元コンピュータ支援設計ソフトウェア(Three-dimensional computer-assisted drafting:3DCAD)で設計後，3Dプリンタを用いて作成した．
+
+指輪型ハードウェアの大きさが，ユーザの指の太さと合っていない場合，センサのずれやユーザビリティの低下等の問題が発生する．
+ユーザごとに指の太さが異なることが予想されるため，指輪の直径が異なる複数の指輪型のハードウェアを作成した．
+AIST\cite{}を参考に，日本人の平均的な食指の直径である，18,19,20,21mmの直径を持つ指輪型ハードウェアを作成した．
+
 \begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\subfigure[Hardware of the wearable device]{
-\includegraphics[scale=0.3]{fig/fal6}
-} &
-\subfigure[Infrared distance sensor]{
-\includegraphics[scale=0.3]{fig/fal7}
-} \\
-\subfigure[A LiPO battery]{
-\includegraphics[scale=0.3]{fig/fal3}
-} &
-\subfigure[Micro SDcard and Accelerometer]{
-\includegraphics[scale=0.2]{fig/fal1}
-} \\
-\end{tabular}
-\end{center}
-\caption{Hardware}
-\label{fig:device}
-\end{figure}
-
-\if0
-(a)Hardware of wearable device.Sensing and data-logging board used to collect and store infrared distance sensor and accelerometry data.(b)Infrared distance sensor consists of LED and Phototransistor.
-(c)A LiPO battery powers the unit for more than 24 hours and is recharged via a USB cable when attached to a computer.(d)Micro SDcard to store sensing-data and Accelerometer.
-Fig.\ref{fig:device}の(a)は本デバイスのハードウェアを示したものである．センシング部と，データ記録部から構成され，赤外線距離センサと加速度センサのデータを記録する．(b)はLEDとフォトトランジスタで構成される赤外線距離センサを指輪に取り付けた，センシング部である．(c)は本デバイスに搭載されたリポバッテリーを示しており，このバッテリーにより24時間以上の連続計測と，USBケーブルを通じての充電が可能である．(d)はデータロギングボードに直接取り付けられた加速度センサと，データ記録用のMicro SDcardを示している．
-\fi
-
-本デバイスに取り付けられたスイッチをオンにすると，赤外線距離センサと加速度センサの記録を開始する．スイッチをオフにするまで連続計測，記録する．データはCSVファイルでSD card内に保存される．本デバイスに記録されたデータは，コンピュータと本デバイスのdeta-logging boardのArduinoをUSBケーブルで直接繋ぐか，Micro SDcardをコンピュータに移すことで，アクセスが可能である．
-
-本デバイスの装着方法をFig\ref{fig:ring}に示す．指輪型のセンシング部は，食指の第二関節に装着し，ストレージ部は手首にマジックテープを使用し取り付ける．
-
-
-
-\begin{figure}[h]
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/fal4.png}
-  \caption{Ring worn on the index finger and Strage worn on the wrist}
-  \label{fig:ring}
+  \includegraphics[width=0.8\linewidth]{fig/fal7}
+  \caption{Infrared distance sensor consists of LED and Phototransistor}
+  \label{fig:distance sensor}
 \end{figure}
 
-
+赤外線距離センサはマイクロコンピュータとワイヤーで接続されており，マイクロコンピュータから給電を行なっている．また，フォトトランジスタがセンシングしたデータをマイクロコンピュータへ出力している．以下のFig.\ref{fig:circuit}に，赤外線距離センサとマイクロコンピュータ(Arduino)の接続を示す．
 
 \begin{figure}[H]
   \centering
@@ -91,6 +81,56 @@ Fig.\ref{fig:device}の(a)は本デバイスのハードウェアを示したも
   \label{fig:circuit}
 \end{figure}
 
+
+
+\subsubsection*{三軸加速度センサ}
+さらに，マイコン基盤に三軸加速度センサ(KXR94-2050)を追加した．
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{fig/accelerometer}
+  \caption{Accelerometer}
+  \label{fig:accelerometer}
+\end{figure}
+
+\subsection*{データ記録部}
+\subsubsection*{SD card}
+データ記録のため，マイコン基盤(Adafruit Faether M0)と32GBのSDcardを使用する．
+赤外線距離センサと加速度センサからの信号は，信号の入力時間とともにマイコン基盤に接続されたMicro sdカードへ保存される．コンピュータへUSB2.0 A Male Microケーブルで接続することで，本デバイスのリポバッテリーの充電と，Micro sdカードに記録されたデータの転送が可能である．
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{fig/sdcard}
+  \caption{Micro SDcard}
+  \label{fig:sd card}
+\end{figure}
+
+
+\subsubsection*{LiPO battery}
+デバイスの電源として3.7V，400mAhのリポバッテリーを利用し，これにより24時間以上の連続電源供給が可能である．
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\linewidth]{fig/battery}
+  \caption{A LiPO battery}
+  \label{fig:battery}
+\end{figure}
+
+
+
+\subsection*{ウェアラブルデバイスの使用法}
+本デバイスに取り付けられたスイッチをオンにすると，赤外線距離センサと加速度センサの記録を開始する．スイッチをオフにするまで連続計測，記録する．データはCSVファイルでSD card内に保存される．本デバイスに記録されたデータは，コンピュータと本デバイスのdeta-logging boardのArduinoをUSBケーブルで直接繋ぐか，Micro SDcardをコンピュータに移すことで，アクセスが可能である．
+
+本デバイスの装着方法をFig\ref{fig:ring}に示す．指輪型のセンシング部は，食指の第二関節に装着し，ストレージ部は手首にマジックテープを使用し取り付ける．
+
+
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{fig/fal4.png}
+  \caption{Ring worn on the index finger and Strage worn on the wrist}
+  \label{fig:ring}
+\end{figure}
 
 
 \section{センシングキャリブレーション}

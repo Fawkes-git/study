@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  18 JAN 2019 19:30
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  20 JAN 2019 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,43 +236,14 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip51
 \subfig@bottom=\skip52
 )
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen145
-\captionmargin@=\dimen146
-\captionwidth=\dimen147
-\caption@tempdima=\dimen148
-\caption@indent=\dimen149
-\caption@parindent=\dimen150
-\caption@hangindent=\dimen151
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-)
-
-Package caption Warning: Unsupported document class (or package) detected,
-(caption)                usage of the caption package is not recommended.
-See the caption package documentation for explanation.
-
-Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
-kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
-p \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \center
-ing \fi #1\hskip 1zw\relax #2\par \vskip \belowcaptionskip }.
-\c@ContinuedFloat=\count112
-Package caption Info: float package is loaded.
-Package caption Info: subfigure package is loaded.
-Package caption Info: wrapfig package is loaded.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
-\col@sep=\dimen152
+\col@sep=\dimen145
 \ar@mcellbox=\box56
-\extrarowheight=\dimen153
+\extrarowheight=\dimen146
 \NC@list=\toks27
 \extratabsurround=\skip53
 \backup@length=\skip54
@@ -305,8 +276,6 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 60.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
@@ -369,39 +338,31 @@ LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
+(Font)              scaled to size 11.53198pt on input line 23.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
-File: fig/ch1/babt.jpeg Graphic file (type bmp)
-<fig/ch1/babt.jpeg>
+(Font)              scaled to size 11.53198pt on input line 23.
+File: fig/ch1/ARAT_kit.jpg Graphic file (type bmp)
+<fig/ch1/ARAT_kit.jpg>
+File: fig/ch1/ARAT_SCORING.jpg Graphic file (type bmp)
+<fig/ch1/ARAT_SCORING.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 29.
+(Font)              scaled to size 8.64899pt on input line 38.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 29.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 29.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 29.
+(Font)              scaled to size 8.64899pt on input line 38.
 [1
 
 
 
 ]
+File: fig/ch1/babt.jpeg Graphic file (type bmp)
+<fig/ch1/babt.jpeg>
+ [2]
 File: fig/ch1/nhpt.jpg Graphic file (type bmp)
 <fig/ch1/nhpt.jpg>
- [2]
-File: fig/ch1/ARAT_kit.jpg Graphic file (type bmp)
-<fig/ch1/ARAT_kit.jpg>
-File: fig/ch1/ARAT_SCORING.jpg Graphic file (type bmp)
-<fig/ch1/ARAT_SCORING.jpg>
  [3]
 File: fig/ch1/mal.png Graphic file (type bmp)
 <fig/ch1/mal.png>
@@ -442,26 +403,30 @@ File: fig/principle.png Graphic file (type bmp)
 ]
 File: fig/fal6.png Graphic file (type bmp)
 <fig/fal6.png>
+ [10] [11]
 File: fig/fal7.png Graphic file (type bmp)
 <fig/fal7.png>
-File: fig/fal3.png Graphic file (type bmp)
-<fig/fal3.png>
-File: fig/fal1.png Graphic file (type bmp)
-<fig/fal1.png>
- [10]
-File: fig/fal4.png Graphic file (type bmp)
-<fig/fal4.png>
 File: fig/test.pdf Graphic file (type pdf)
 <fig/test.pdf>
- [11]
-[12]) [13]
+
+[12]
+File: fig/accelerometer.png Graphic file (type bmp)
+<fig/accelerometer.png>
+File: fig/sdcard.png Graphic file (type bmp)
+<fig/sdcard.png>
+ [13]
+File: fig/battery.png Graphic file (type bmp)
+<fig/battery.png>
+File: fig/fal4.png Graphic file (type bmp)
+<fig/fal4.png>
+ [14] [15]) [16]
 \openout2 = `_ch3.aux'.
 
  (./_ch3.tex
 第3章
 File: fig/sensor.png Graphic file (type bmp)
 <fig/sensor.png>
-[14
+[17
 
 
 
@@ -470,12 +435,12 @@ File: fig/gesture.png Graphic file (type bmp)
 <fig/gesture.png>
 File: fig/confusion_matrix.png Graphic file (type bmp)
 <fig/confusion_matrix.png>
- [15]
+ [18]
 File: fig/kotei.jpg Graphic file (type bmp)
 <fig/kotei.jpg>
 File: fig/kotei1.png Graphic file (type bmp)
 <fig/kotei1.png>
- [16]
+ [19]
 File: fig/sub1.png Graphic file (type bmp)
 <fig/sub1.png>
 File: fig/sub2.png Graphic file (type bmp)
@@ -488,7 +453,7 @@ File: fig/sub5.png Graphic file (type bmp)
 <fig/sub5.png>
 File: fig/sub6.png Graphic file (type bmp)
 <fig/sub6.png>
- [17]
+ [20]
 File: fig/sub7.png Graphic file (type bmp)
 <fig/sub7.png>
 File: fig/sub8.png Graphic file (type bmp)
@@ -497,7 +462,7 @@ File: fig/sub9.png Graphic file (type bmp)
 <fig/sub9.png>
 File: fig/sub10.png Graphic file (type bmp)
 <fig/sub10.png>
- [18]
+ [21]
 File: fig/sub1r.png Graphic file (type bmp)
 <fig/sub1r.png>
 File: fig/sub2r.png Graphic file (type bmp)
@@ -510,7 +475,7 @@ File: fig/sub5r.png Graphic file (type bmp)
 <fig/sub5r.png>
 File: fig/sub6r.png Graphic file (type bmp)
 <fig/sub6r.png>
- [19]
+ [22]
 File: fig/sub7r.png Graphic file (type bmp)
 <fig/sub7r.png>
 File: fig/sub8r.png Graphic file (type bmp)
@@ -519,10 +484,10 @@ File: fig/sub9r.png Graphic file (type bmp)
 <fig/sub9r.png>
 File: fig/sub10r.png Graphic file (type bmp)
 <fig/sub10r.png>
- [20] [21]
+ [23] [24]
 File: fig/result.png Graphic file (type bmp)
 <fig/result.png>
-) [22] (./_thesis.bbl
+) [25] (./_thesis.bbl
 LaTeX Font Info:    Font shape `JT1/gt/m/it' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
@@ -531,19 +496,20 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 14.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 14.
- [23
+ [26
 
 
-]) [24]
+] [27])
+[28]
 No file _thesis.ind.
 (./_thesis.aux (./_ch1.aux) (./_ch2.aux) (./_ch3.aux)) ) 
 Here is how much of TeX's memory you used:
- 3840 strings out of 493281
- 53911 string characters out of 6145041
- 130913 words of memory out of 5000000
- 7628 multiletter control sequences out of 15000+600000
- 18894 words of font info for 86 fonts, out of 8000000 for 9000
+ 2817 strings out of 493281
+ 35112 string characters out of 6145041
+ 106386 words of memory out of 5000000
+ 6611 multiletter control sequences out of 15000+600000
+ 18305 words of font info for 83 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 36i,13n,41p,1122b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,27p,1122b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _thesis.dvi (25 pages, 66632 bytes).
+Output written on _thesis.dvi (29 pages, 76220 bytes).

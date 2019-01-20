@@ -13,6 +13,57 @@ Catherine~E. Lang, Marghuretta~D. Bland, Ryan~R. Bailey, Sydney~Y. Schaefer,
   after stroke: Foundations for clinical decision making}.
 \newblock {\em Journal of Hand Therapy}, Vol.~26, No.~2, pp. 104--115, 2013.
 
+\bibitem{Hsieh2009}
+Yu~Wei Hsieh, Ching~Yi Wu, Keh~Chung Lin, Ya~Fen Chang, Chia~Ling Chen, and
+  Jung~Sen Liu.
+\newblock {Responsiveness and validity of three outcome measures of motor
+  function after stroke rehabilitation}.
+\newblock {\em Stroke}, Vol.~40, No.~4, pp. 1386--1391, 2009.
+
+\bibitem{Lang2008}
+Catherine~E. Lang, Dorothy~F. Edwards, Rebecca~L. Birkenmeier, and Alexander~W.
+  Dromerick.
+\newblock {Estimating Minimal Clinically Important Differences of
+  Upper-Extremity Measures Early After Stroke}.
+\newblock {\em Archives of Physical Medicine and Rehabilitation}, Vol.~89,
+  No.~9, pp. 1693--1700, 2008.
+
+\bibitem{Lang2017}
+Catherine~E. Lang, Kimberly~J. Waddell, Joseph~W. Klaesner, and Marghuretta~D.
+  Bland.
+\newblock {A Method for Quantifying Upper Limb Performance in Daily Life Using
+  Accelerometers}.
+\newblock {\em Journal of Visualized Experiments}, No. 122, pp. 1--8, 2017.
+
+\bibitem{Nijland2010}
+Rinske Nijland, Erwin {Van Wegen}, Jeanine Verbunt, Renske {Van Wijk}, Joost
+  {Van Kordelaar}, and Gert Kwakkel.
+\newblock {A comparison of two validated tests for upper limb function after
+  stroke: The wolf motor function test and the action research arm test}.
+\newblock {\em Journal of Rehabilitation Medicine}, Vol.~42, No.~7, pp.
+  694--696, 2010.
+
+\bibitem{VanDerPas2011}
+Sanne~C. {Van Der Pas}, Jeanine~A. Verbunt, Dorien~E. Breukelaar, Rachma {Van
+  Woerden}, and Henk~A. Seelen.
+\newblock {Assessment of arm activity using triaxial accelerometry in patients
+  with a stroke}.
+\newblock {\em Archives of Physical Medicine and Rehabilitation}, Vol.~92,
+  No.~9, pp. 1437--1442, 2011.
+
+\bibitem{VanDerLee2004}
+J.~H. {Van Der Lee}, H.~Beckerman, D.~L. Knol, H.~C.W. {De Vet}, and L.~M.
+  Bouter.
+\newblock {Clinimetric properties of the motor activity log for the assessment
+  of arm use in hemiparetic patients}.
+\newblock {\em Stroke}, Vol.~35, No.~6, pp. 1410--1414, 2004.
+
+\bibitem{Taub1998}
+Edward Taub, Jean~E. Crago, and Gitendra Uswatte.
+\newblock {Constraint-induced movement therapy: A new approach to treatment in
+  physical rehabilitation}.
+\newblock {\em Rehabilitation Psychology}, Vol.~43, No.~2, pp. 152--170, 1998.
+
 \bibitem{T.2005}
 Platz T., Pinkowski C., van~Wijck F., Kim I.-H., di~Bella P., and Johnson G.
 \newblock {Reliability and validity of arm function assessment with
@@ -79,21 +130,6 @@ Fajar~Akhmad Dwiputra, Balza Achmad, Faridah, and Herianto.
 \newblock {\em International Journal on Advanced Science, Engineering and
   Information Technology}, Vol.~7, No.~1, p. 299, 2017.
 
-\bibitem{VanDerPas2011}
-Sanne~C. {Van Der Pas}, Jeanine~A. Verbunt, Dorien~E. Breukelaar, Rachma {Van
-  Woerden}, and Henk~A. Seelen.
-\newblock {Assessment of arm activity using triaxial accelerometry in patients
-  with a stroke}.
-\newblock {\em Archives of Physical Medicine and Rehabilitation}, Vol.~92,
-  No.~9, pp. 1437--1442, 2011.
-
-\bibitem{VanDerLee2004}
-J.~H. {Van Der Lee}, H.~Beckerman, D.~L. Knol, H.~C.W. {De Vet}, and L.~M.
-  Bouter.
-\newblock {Clinimetric properties of the motor activity log for the assessment
-  of arm use in hemiparetic patients}.
-\newblock {\em Stroke}, Vol.~35, No.~6, pp. 1410--1414, 2004.
-
 \bibitem{Thrane2011}
 Gyrd Thrane, Nina Emaus, Torunn Askim, and Audny Anke.
 \newblock {Arm use in patients with subacute stroke monitored by accelerometry:
@@ -107,6 +143,18 @@ B.~W. Ullery, J.~T. Lee, and R.~L. Dalman.
   aortic aneurysms}.
 \newblock {\em Journal of Cardiovascular Surgery}, Vol.~56, No.~5, pp.
   707--717, 2015.
+
+\bibitem{Ahmad2006}
+Farooq Ahmad and Petr Musilek.
+\newblock {UbiHand : A Wearable Input Device for 3D Interaction}.
+\newblock {\em Communications}, p. 2006, 2006.
+
+\bibitem{Kim2012}
+David Kim, Otmar Hilliges, Shahram Izadi, Alex~D. Butler, Jiawen Chen, Iason
+  Oikonomidis, and Patrick Olivier.
+\newblock {Digits}.
+\newblock {\em Proceedings of the 25th annual ACM symposium on User interface
+  software and technology - UIST '12}, p. 167, 2012.
 
 \bibitem{Friedman2014}
 Nizan Friedman, Justin~B. Rowe, David~J. Reinkensmeyer, and Mark Bachman.
@@ -151,5 +199,11 @@ Zhou Ren, Jingjing Meng, and Junsong Yuan.
 Lin.
 \newblock {BackHand: Sensing Hand Gestures via Back of the Hand}.
 \newblock {\em Proc. UIST'15}, No.~C, pp. 557--564, 2015.
+
+\bibitem{Taub2011}
+Edward Taub, Karen McCulloch, Gitendra Uswatte, and David~M Morris.
+\newblock {Motor Activity Log (MAL) Manual}.
+\newblock {\em UAB CI Therapy Research Group http:// {\ldots}}, pp. 1--18,
+  2011.
 
 \end{thebibliography}

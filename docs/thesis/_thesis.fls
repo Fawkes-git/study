@@ -71,10 +71,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/colortbl/colortbl.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
@@ -142,20 +138,17 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT fig/ch1/babt.jpeg
-INPUT extractbb -B cropbox -O fig/ch1/babt.jpeg
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT fig/ch1/nhpt.jpg
-INPUT extractbb -B cropbox -O fig/ch1/nhpt.jpg
 INPUT fig/ch1/ARAT_kit.jpg
 INPUT extractbb -B cropbox -O fig/ch1/ARAT_kit.jpg
 INPUT fig/ch1/ARAT_SCORING.jpg
 INPUT extractbb -B cropbox -O fig/ch1/ARAT_SCORING.jpg
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT fig/ch1/babt.jpeg
+INPUT extractbb -B cropbox -O fig/ch1/babt.jpeg
+INPUT fig/ch1/nhpt.jpg
+INPUT extractbb -B cropbox -O fig/ch1/nhpt.jpg
 INPUT fig/ch1/mal.png
 INPUT extractbb -B cropbox -O fig/ch1/mal.png
 INPUT fig/ch1/amount.png
@@ -183,14 +176,16 @@ INPUT fig/fal6.png
 INPUT extractbb -B cropbox -O fig/fal6.png
 INPUT fig/fal7.png
 INPUT extractbb -B cropbox -O fig/fal7.png
-INPUT fig/fal3.png
-INPUT extractbb -B cropbox -O fig/fal3.png
-INPUT fig/fal1.png
-INPUT extractbb -B cropbox -O fig/fal1.png
-INPUT fig/fal4.png
-INPUT extractbb -B cropbox -O fig/fal4.png
 INPUT fig/test.pdf
 INPUT extractbb -B cropbox -O fig/test.pdf
+INPUT fig/accelerometer.png
+INPUT extractbb -B cropbox -O fig/accelerometer.png
+INPUT fig/sdcard.png
+INPUT extractbb -B cropbox -O fig/sdcard.png
+INPUT fig/battery.png
+INPUT extractbb -B cropbox -O fig/battery.png
+INPUT fig/fal4.png
+INPUT extractbb -B cropbox -O fig/fal4.png
 OUTPUT _ch3.aux
 INPUT _ch3.tex
 INPUT _ch3.tex
