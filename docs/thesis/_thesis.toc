@@ -3,17 +3,26 @@
 \contentsline {section}{\numberline {1.2}日常生活動作(Activities of Daily Living)}{1}
 \contentsline {section}{\numberline {1.3}上肢機能評価結果を用いた臨床判断}{1}
 \contentsline {section}{\numberline {1.4}診療所や研究所で行われる上肢機能の評価手法}{1}
-\contentsline {section}{\numberline {1.5}定量的上肢使用量計測に関する研究}{5}
-\contentsline {section}{\numberline {1.6}本論文の構成}{8}
-\contentsline {chapter}{\numberline {第2章}手指使用量常時計測の理論と計測ステム構築}{9}
-\contentsline {section}{\numberline {2.1}手指使用量の常時計測方法}{9}
-\contentsline {section}{\numberline {2.2}指の関節角度計測}{9}
-\contentsline {section}{\numberline {2.3}ウェアラブルデバイスのハードウェア}{10}
-\contentsline {section}{\numberline {2.4}センシングキャリブレーション}{15}
-\contentsline {section}{\numberline {2.5}センシング情報の処理方法}{15}
-\contentsline {chapter}{\numberline {第3章}精度評価手法と結果}{17}
-\contentsline {section}{\numberline {3.1}指の長さ計測}{17}
-\contentsline {section}{\numberline {3.2}ジェスチャ識別}{17}
-\contentsline {section}{\numberline {3.3}関節角度推定}{19}
-\contentsline {section}{\numberline {3.4}日常生活動作タスクの評価}{24}
-\contentsline {chapter}{参考文献}{26}
+\contentsline {section}{\numberline {1.5}セルフレポート評価手法}{4}
+\contentsline {section}{\numberline {1.6}定量的上肢使用量計測に関する研究}{6}
+\contentsline {section}{\numberline {1.7}本論文の構成}{10}
+\contentsline {chapter}{\numberline {第2章}手指使用量常時計測の理論と計測ステム構築}{11}
+\contentsline {section}{\numberline {2.1}ハンドジェスチャーインターフェース}{11}
+\contentsline {section}{\numberline {2.2}手指使用量の常時計測方法}{11}
+\contentsline {section}{\numberline {2.3}指の関節角度計測}{11}
+\contentsline {section}{\numberline {2.4}ウェアラブルデバイスのハードウェア}{12}
+\contentsline {section}{\numberline {2.5}ピン配置}{16}
+\contentsline {section}{\numberline {2.6}ファームウェアデザイン}{17}
+\contentsline {subsection}{\numberline {2.6.1}ウェアラブルデバイスの使用法}{17}
+\contentsline {section}{\numberline {2.7}センシングキャリブレーション}{18}
+\contentsline {section}{\numberline {2.8}センシング情報の処理方法}{20}
+\contentsline {chapter}{\numberline {第3章}精度評価手法と結果}{26}
+\contentsline {section}{\numberline {3.1}指の長さ計測}{26}
+\contentsline {section}{\numberline {3.2}ジェスチャ識別}{26}
+\contentsline {section}{\numberline {3.3}関節角度推定}{28}
+\contentsline {section}{\numberline {3.4}日常生活動作タスクの評価}{33}
+\contentsline {chapter}{\numberline {第4章}考察と課題}{35}
+\contentsline {section}{\numberline {4.1}結論}{35}
+\contentsline {section}{\numberline {4.2}課題}{35}
+\contentsline {chapter}{\numberline {第5章}結論}{36}
+\contentsline {chapter}{参考文献}{37}

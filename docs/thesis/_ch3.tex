@@ -8,20 +8,20 @@
   \caption{Length between fingertip and proximal interphslangeal joint with index finger(n=10)}
   \label{table:finger_distance}
   \centering
-  \begin{tabular}{ccc}
+  \begin{tabular}{ccccc}
     \hline
-    Subjects & Index finger& Between fingertip and proximal interphslangeal joint(cm)  \\
-    \hline \hline
-    A  & 2.71 & 0.993\\
-    B  & 2.62 & 0.995\\
-    C  & 6.61 & 0.985\\
-    D  & 5.01 & 0.994\\
-    E  & 2.33 & 0.995\\ 
-    F  & 2.87 & 0.995\\
-    G  & 1.57 & 0.998\\
-    H  & 2.87 & 0.992\\
-    I  & 3.04 & 0.986\\
-    J  & 2.41 & 0.994\\
+    Subjects & Length(cm)& Length(cm) & Sex & Dominant Hand\\
+    \hline \hline 
+    A  & 2.71 & 0.993 & Female & Left\\
+    B  & 2.62 & 0.995 & Male & Right\\
+    C  & 6.61 & 0.985 & Male & Right\\
+    D  & 5.01 & 0.994 & Male & Right\\
+    E  & 2.33 & 0.995 & Male & Right\\ 
+    F  & 2.87 & 0.995 & Male & Right\\
+    G  & 1.57 & 0.998 & Male & Right\\
+    H  & 2.87 & 0.992 & Male & Right\\
+    I  & 3.04 & 0.986 & Female & Right\\
+    J  & 2.41 & 0.994 & Male & Right\\
     \hline
   \end{tabular}
 \end{table}
@@ -238,8 +238,12 @@ MAEの被験者平均は $3.20^\circ$ (SD=$1.48^\circ$)であった.
 
 \section{日常生活動作タスクの評価}
 本手法により，日常生活動作の評価が可能かを調査した．調査の方法を以下に示す．
-六つのタスクをそれぞれ5分間，合計30分間，以下の順番で八人の被験者が行った．このとき，Fig.\ref{fig:ring}に示すとおり，三軸加速度計(ストレージ部)を被験者の両手首，赤外線距離センサを両手の手食指に装着し同時計測した．本実験で被験者に指示したタスクを以下に示す．
+六つのタスクをそれぞれ5分間，合計30分間，以下の順番で八人の被験者が行った．
+被験者は左利きが一人，右利きが七人であり，二人が女性，六人が男性であった．
+また全ての被験者は健常者であった．実験を行う際，Fig.\ref{fig:ring}に示すように，三軸加速度計(データ記録部)を被験者の両手首，赤外線距離センサを両手の食指に装着し同時計測した．
 
+本実験で被験者に指示したタスクを以下に示す．
+\if0
 \begin{description}
 \item[箸を使い食事]
 被験者は利き手に箸を持ち，三つの皿に分けられた食品を口に運び食す．
@@ -260,6 +264,36 @@ MAEの被験者平均は $3.20^\circ$ (SD=$1.48^\circ$)であった.
 被験者は利き手で，十本のペグをホールに入れる，ペグをホールから取り出すを繰り返す．
 
 \end{description}
+\fi
+\begin{table}[H]
+  \caption{日常生活動作とリハビリテーションタスク}
+  \label{table:tasks}
+  \centering
+  \begin{tabular}{ll}
+    \hline
+    Task &  Detail  \\
+    \hline \hline
+箸を使い食事&
+被験者は利き手に箸を持ち，三つの皿に分けられた食品を口に運び食す．\\
+
+布巾でテーブルを拭く&
+被験者は利き手に布巾を持ち，70cm四方のテーブルを拭く．\\
+
+タイピング&
+被験者は両手を用い，タイピングゲームを行う．\\
+
+ライティング&
+被験者は利き手にボールペンを持ち，文字の書き取りを行う．\\
+
+布巾を畳む&
+被験者は両手を用い，布巾を四つ折りに畳む，広げるを繰り返す．\\
+
+Hole peg testを行う&
+被験者は利き手で十本のペグをホールに入れ,全てのペグをホールから抜き出すを繰り返す．\\
+
+    \hline
+  \end{tabular}
+\end{table}
 
 これらのタスクは生活日常動作五つと，リハビリテーション動作のBox and block testからなり，\cite{Taub2011,Mathiowetz1985}を参考にした．
 

@@ -84,6 +84,10 @@ INPUT _ch2.aux
 INPUT _ch2.aux
 INPUT _ch3.aux
 INPUT _ch3.aux
+INPUT _ch4.aux
+INPUT _ch4.aux
+INPUT _ch5.aux
+INPUT _ch5.aux
 OUTPUT _thesis.aux
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
@@ -176,16 +180,38 @@ INPUT fig/fal6.png
 INPUT extractbb -B cropbox -O fig/fal6.png
 INPUT fig/fal7.png
 INPUT extractbb -B cropbox -O fig/fal7.png
-INPUT fig/test.pdf
-INPUT extractbb -B cropbox -O fig/test.pdf
 INPUT fig/accelerometer.png
 INPUT extractbb -B cropbox -O fig/accelerometer.png
+INPUT fig/adafruit.png
+INPUT extractbb -B cropbox -O fig/adafruit.png
 INPUT fig/sdcard.png
 INPUT extractbb -B cropbox -O fig/sdcard.png
 INPUT fig/battery.png
 INPUT extractbb -B cropbox -O fig/battery.png
+INPUT fig/test.pdf
+INPUT extractbb -B cropbox -O fig/test.pdf
 INPUT fig/fal4.png
 INPUT extractbb -B cropbox -O fig/fal4.png
+INPUT fig/infrared_linearmodel.png
+INPUT extractbb -B cropbox -O fig/infrared_linearmodel.png
+INPUT fig/accel_linearmodel.png
+INPUT extractbb -B cropbox -O fig/accel_linearmodel.png
+INPUT fig/angle.png
+INPUT extractbb -B cropbox -O fig/angle.png
+INPUT fig/v.png
+INPUT extractbb -B cropbox -O fig/v.png
+INPUT fig/absolute_v.png
+INPUT extractbb -B cropbox -O fig/absolute_v.png
+INPUT fig/aggrigated_angle.png
+INPUT extractbb -B cropbox -O fig/aggrigated_angle.png
+INPUT fig/accel_xyz.png
+INPUT extractbb -B cropbox -O fig/accel_xyz.png
+INPUT fig/jerk_xyz.png
+INPUT extractbb -B cropbox -O fig/jerk_xyz.png
+INPUT fig/norm_jerk.png
+INPUT extractbb -B cropbox -O fig/norm_jerk.png
+INPUT fig/aggrigated_accel.png
+INPUT extractbb -B cropbox -O fig/aggrigated_accel.png
 OUTPUT _ch3.aux
 INPUT _ch3.tex
 INPUT _ch3.tex
@@ -241,6 +267,12 @@ INPUT fig/sub10r.png
 INPUT extractbb -B cropbox -O fig/sub10r.png
 INPUT fig/result.png
 INPUT extractbb -B cropbox -O fig/result.png
+OUTPUT _ch4.aux
+INPUT _ch4.tex
+INPUT _ch4.tex
+OUTPUT _ch5.aux
+INPUT _ch5.tex
+INPUT _ch5.tex
 INPUT _thesis.bbl
 INPUT _thesis.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
@@ -251,3 +283,7 @@ INPUT _ch2.aux
 INPUT _ch2.aux
 INPUT _ch3.aux
 INPUT _ch3.aux
+INPUT _ch4.aux
+INPUT _ch4.aux
+INPUT _ch5.aux
+INPUT _ch5.aux
