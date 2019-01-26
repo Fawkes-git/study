@@ -62,8 +62,9 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
   \caption{Hardware of the wearable device}
   \label{fig:device}
 \end{figure}
-
-
+ハードウェアとしては，赤外線距離センサが取り付けられた指輪部と，加速度センサが搭載されたマイクロコンピュータで成る腕輪部に分かれている．
+デバイスの重さは，指輪部が5g(ワイヤ含む)，腕輪部は30gである．
+また，デバイスの大きさは，指輪部が直径20mm，厚さ2mm，長さ10mmである．腕輪部は63mm,34mm,20mmである．
 本デバイスの指輪型の装着部分及び，バッテリーとマイコン基盤を収納するためのケースを3DCAD(Fusion 360)で設計し，3Dプリンタ(Dimension 1200es)で印刷し作成した．
 
 
@@ -112,9 +113,11 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
   \end{tabular}
 \end{table}
 
+三軸加速度センサの設置位置と，X,Y,Zの各軸をFig.\ref{fig:accelerometer}に示す．
+
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\linewidth]{fig/accelerometer}
+  \includegraphics[width=0.5\linewidth]{fig/accelerometer_1}
   \caption{Accelerometer}
   \label{fig:accelerometer}
 \end{figure}
@@ -139,7 +142,7 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\linewidth]{fig/sdcard}
+  \includegraphics[width=0.5\linewidth]{fig/microsdcard}
   \caption{Micro SDcard}
   \label{fig:sd card}
 \end{figure}
@@ -153,6 +156,13 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
   \includegraphics[width=0.5\linewidth]{fig/battery}
   \caption{A LiPo battery}
   \label{fig:battery}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\linewidth]{fig/ph}
+  \caption{connecter}
+  \label{fig:connecter}
 \end{figure}
 
 \section{ピン配置}
@@ -182,15 +192,42 @@ Adafruit Feather M0 adaloggerのA2ピンはアナログピンであり，加速�
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.5\linewidth]{fig/test}
-  \caption{Circuit of the wearable device}
+  \caption{Circuit of Infrared distance sensor }
   \label{fig:circuit}{}
 \end{figure}
 
 
 \section{ファームウェアデザイン}
-ファームウェアはArduinoボード，Adaruits Feather M0をArduino言語でプログラムした．電源を入れると，ファームウェアはArduinoボードがUSBによってコンピュータと接続しているか，確認する．USBで接続されている場合，自動でLiPo batteryの充電を行う．USB接続がない場合は，データロガーモードに入る．microSDカードへの記録装置が有効になり，新しいcsvファイルが作成される．新しく作成されたcsvファイルには，三軸加速度センサと赤外線距離センサのセンシング情報と，電源がオンになってからの時間が記録される．つまり，csvファイルのカラムは加速度X,Y,Z軸それぞれ三つと，赤外線距離センサの一つ，さらにそれらのタイムスタンプを加えた五つのカラムである．三軸加速度センサと赤外線距離センサはともに10ビットの分解能で加速度，距離を検知するようプログラムされている．また，センシングのサンプリングレートは100Hzでプログラムされている．
+ファームウェアはArduinoボード，Adaruits Feather M0をArduino言語でプログラムした．電源を入れると，ファームウェアはArduinoボードがUSBによってコンピュータと接続しているか，確認する．USBで接続されている場合，自動でLiPo batteryの充電を行う．
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\linewidth]{fig/usbconne}
+  \caption{USB connecter}
+  \label{fig:USB connecter}
+\end{figure}
+
+
+USB接続がない場合は，データロガーモードに入る．microSDカードへの記録装置が有効になり，新しいcsvファイルが作成される．新しく作成されたcsvファイルには，三軸加速度センサと赤外線距離センサのセンシング情報と，電源がオンになってからの時間が記録される．つまり，csvファイルのカラムは加速度X,Y,Z軸それぞれ三つと，赤外線距離センサの一つ，さらにそれらのタイムスタンプを加えた五つのカラムである．三軸加速度センサと赤外線距離センサはともに10ビットの分解能で加速度，距離を検知するようプログラムされている．また，センシングのサンプリングレートは100Hzでプログラムされている．
 
 \subsection{ウェアラブルデバイスの使用法}
+\subsubsection*{コネクタの接続方法}
+本デバイスは，赤外線距離センサが取り付けられた，指輪型ハードウェアと
+加速度センサが搭載されたデータ記録部の腕輪型ハードウェアに分けられている．
+腕輪型ハードウェアは，単体でも利用でき，加速度センサによるセンシングが可能である．
+赤外線距離センサを利用するためには二つのハードウェアをコネクタで接続する必要がある．
+コネクタをFig.\ref{fig:connecter}に示す．
+本デバイスのコネクタはQI（2550）コネクタである．
+腕輪型ハードウェアから出ているオス側のコネクタを，指輪型ハードウェアのメス型コネクタへ接続して使用する．
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\linewidth]{fig/connecter.jpg}
+  \caption{QI connecter}
+  \label{fig:QI connecter}
+\end{figure}
+
+
+\subsubsection*{本デバイスの装着方法}
 本デバイスの装着方法をFig\ref{fig:ring}に示す．指輪型のセンシング部は，食指の第二関節に装着し，ストレージ部は手首にマジックテープを使用し取り付ける．この際，指輪の大きさは，ユーザに合わせたものを選ぶ．また，赤外線距離センサ部が\ref{fig:principle}に示すように，手掌側になるよう装着する．
 \begin{figure}[H]
   \centering
@@ -199,7 +236,14 @@ Adafruit Feather M0 adaloggerのA2ピンはアナログピンであり，加速�
   \label{fig:ring}
 \end{figure}
 
-本デバイスに取り付けられたスイッチをスライドし電源をオンにした時より，赤外線距離センサと加速度センサのセンサ値の記録を開始する．また，センサ値は，スイッチをオフにするまで連続計測，記録される．各センサのセンサ値と，センサ値が計測された時間を保持するデータはCSVファイルでSD card内に保存される．本デバイスに記録されたデータは，コンピュータと本デバイスをUSBケーブルで直接繋ぐか，Micro SDcardをコンピュータに移すことで，アクセスが可能である．
+\subsubsection*{電源の入れ方とデータ記録}
+本デバイスに取り付けられたスイッチをスライドし電源をオンにした時より，赤外線距離センサと加速度センサのセンサ値の記録を開始する．
+また，センサ値は，スイッチをオフにするまで連続計測，記録される．
+各センサのセンサ値と，センサ値が計測された時間を保持するデータはCSVファイルでSD card内に保存される．
+本デバイスに記録されたデータは，コンピュータと本デバイスをUSBケーブルで直接繋ぐか，Micro SDcardをコンピュータに移すことで，アクセスが可能である．
+
+%スイッチの写真
+
 
 \section{センシングキャリブレーション}
 \subsection*{赤外線距離センサのキャリブレーション}
@@ -249,6 +293,8 @@ Adafruit Feather M0 adaloggerのA2ピンはアナログピンであり，加速�
 加速度センサはユーザごとにキャリブレーションをする必要がない．しかし，センサからマイクロコンピュータボードへ出力されるのは電圧値であるため，電圧値を加速度へ変換する必要がある．加速度センサのキャリブレーションは，重力加速度が$9.8m/s^2$であることを利用し行なった．加速度センサの各軸ごとに
 平面と平行になるようセンサの向きを合わせ，平面にデバイスを置いた状態で3秒間電源をオンにし，センサ情報を記録した．さらに，加速度センサの各軸ごとにセンサの向きを，先ほどの記録時とは反対向きにした．その後，センサから3秒間出力された電圧値を平均し，重力加速度の$9.8m/s^2$を用いて，線形近似Fig.\ref{fig:cali_accel}し，電圧値から加速度への変換を行なった．この操作を，加速度センサの各軸に行い，キャリブレーションをした．
 
+重力加速度$9.8m/s^2$がかかっている時の，センサ値を，加速度センサの各軸において記録し，線形モデルを作成した．
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/accel_linearmodel}
@@ -256,8 +302,8 @@ Adafruit Feather M0 adaloggerのA2ピンはアナログピンであり，加速�
   \label{fig:cali_accel}
 \end{figure}
 
-
 \section{センシング情報の処理方法}
+アナログセンサの電圧値は$2^10$の分解能を持つデジタル信号に変換される．
 センサ情報の前処理として，複数の処理を行った．
 まず始めに，センシング情報の補完を行なった．
 センシングのサンプルレートは100Hzであるが，Arduinoにより得られる赤外線距離センサと加速度センサ情報のタイムスタンプは正確に，0.01秒刻みで得ることができない．なぜならば，センサ情報の取得にはArduino内部のプログラムを用いており，センサ情報を取得するために，0.01秒ごとにプログラムをループしているため，プログラムの実行時間にずれが生じるからである．また，本実験で用いている，Arduinoボード(Adafruits Feather M0)は48MHz動作のArduinoボードであり,このArduinoの時間分解能は12マイクロ秒であることも理由の一つである．
@@ -321,7 +367,7 @@ Fig.\ref{fig:angle}は，被験者がTable\ref{table:tasks}のタスクを表の
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/angle}
+  \includegraphics[width=0.8\linewidth]{fig/angle_}
   \caption{Data processing angle}
   \label{fig:angle}
 \end{figure}
@@ -333,7 +379,7 @@ Fig.\ref{fig:angle}は，被験者がTable\ref{table:tasks}のタスクを表の
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/v}
+  \includegraphics[width=0.8\linewidth]{fig/velocity}
   \caption{Data processing angle velocity}
   \label{fig:angle_velocity}
 \end{figure}
@@ -342,7 +388,7 @@ Fig.\ref{fig:angle}は，被験者がTable\ref{table:tasks}のタスクを表の
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/absolute_v}
+  \includegraphics[width=0.8\linewidth]{fig/absolute_velocity}
   \caption{Data processing absolute angle velocity}
   \label{fig:abs_velocity}
 \end{figure}
@@ -395,7 +441,7 @@ $a_{x,i}, a_{y,i},a_{z,i}$をx,y,z軸の$i$秒の時の加速度とする．ま�
   \label{fig:jerk_xyz}
 \end{figure}
 
-それぞれの軸について得られた躍度の大きさを式\ref{eq:jerknorm}によって導出すると
+それぞれの軸について得られた躍度のノルムを式\ref{eq:jerknorm}によって導出すると
 
 \begin{equation}
 j_{norm,i} = \sqrt{{j_{x,i}}^2+{j_{y,i}}^2+{j_{z,i}}^2}
@@ -411,7 +457,7 @@ j_{norm,i} = \sqrt{{j_{x,i}}^2+{j_{y,i}}^2+{j_{z,i}}^2}
   \label{fig:norm_jerk}
 \end{figure}
 
-5分間のタスクごとに，関節角度の変化量の合計を導出する．
+5分間のタスクごとに，加速度の変化量の合計を導出する．
 \begin{eqnarray}
 Aggrigated\ accleration  = \sum_{i=1}^n j_{norm,i}
 \end{eqnarray}

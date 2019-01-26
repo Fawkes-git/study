@@ -110,7 +110,11 @@ SISの実施は対面式のインタビュー形式，電話，または郵便�
 
 \section{定量的上肢使用量計測に関する研究}
 \subsection*{Accelerometry}
-Accelerometry\cite{Chen2005,Hayward2016,Dwiputra2017,VanDerPas2011,VanDerLee2004,Thrane2011,Seitz2011}をFig.\ref{fig:Accelerometry}に示す．Accelerometryは，加速度計が埋め込まれた腕時計型のウェアラブルデバイスで上肢の使用量を測る手法である．Accelerometryは麻痺肢の手首に装着することで，麻痺肢の使用量を測定する．データ記録装置とバッテリーが内蔵されているため，麻痺肢使用量の常時計測に向いている\cite{VanDerPas2011}．しかし，この手法で計測される加速度データはノイズを多く含み，信頼性の高いデータを得ることができない．加速度データに混入するノイズは，測定された加速度が所定の時間内に，閾値を超える場合にのみ，麻痺肢使用のスコアを増加するといった手法の閾値フィルタを用いて低減することができる.このアプローチによって得られたスコアは日常生活において，腕を動かした時間と高い相関を持つことが示されている．しかし，閾値フィルタを使用したノイズ低減を行った場合，加速度が閾値に達しない小さな手の動きが見落とされる可能性がある．また，加速度計が手首に装着されているため，手首や手の精密な動きを計測できない問題がある．これらの理由から，Accelerometryは指の使用量の測定には向かない\cite{Uswatte2000}．
+Accelerometry\cite{Chen2005,Hayward2016,Dwiputra2017,VanDerPas2011,VanDerLee2004,Thrane2011,Seitz2011}をFig.\ref{fig:Accelerometry}に示す．Accelerometryは腕の使用量が多ければ，大きな加速度が記録され，腕の使用量が少なければ，記録される加速度は小さいといったことを
+仮定したシンプルな腕の使用量の評価手法である．
+日常生活動作とともに発生する，腕の加速度を記録する．
+
+Accelerometryは，加速度計が埋め込まれた腕時計型のウェアラブルデバイスで上肢の使用量を測る手法である．Accelerometryは麻痺肢の手首に装着することで，麻痺肢の使用量を測定する．データ記録装置とバッテリーが内蔵されているため，麻痺肢使用量の常時計測に向いている\cite{VanDerPas2011}．しかし，この手法で計測される加速度データはノイズを多く含み，信頼性の高いデータを得ることができない．加速度データに混入するノイズは，測定された加速度が所定の時間内に，閾値を超える場合にのみ，麻痺肢使用のスコアを増加するといった手法の閾値フィルタを用いて低減することができる.このアプローチによって得られたスコアは日常生活において，腕を動かした時間と高い相関を持つことが示されている．しかし，閾値フィルタを使用したノイズ低減を行った場合，加速度が閾値に達しない小さな手の動きが見落とされる可能性がある．また，加速度計が手首に装着されているため，手指の精密な動きを計測できない問題がある．これらの理由から，Accelerometryは指の使用量の測定には向かない\cite{Uswatte2000}．
 また，Accelerometryはタスクを行なっているのか，歩行時に手を振っているのかということを見分けられない．歩行時に腕を振っていることを検知する手法があるが，この手法は，足やつま先などに追加のAccelerometryを装着することを必要とする\cite{Ullery2015}.
 さらに，Accelerometryはどのタスクをしているのかを見分けることも難しい\cite{Hayward2016}.
 \begin{figure}[H]
@@ -120,22 +124,38 @@ Accelerometry\cite{Chen2005,Hayward2016,Dwiputra2017,VanDerPas2011,VanDerLee2004
   \label{fig:Accelerometry}
 \end{figure}
 
-Accelerometryがの信頼性と妥当性
-Accelerometryが有効であるためには，信頼性と妥当性が高くなければならない．\cite{}同じAccelerometryを使用している場合，ユーザが行なっているタスクが同じであるなら，Accelerometryのcounts数は，同じでなければならない．また，異なるAccelerometryを使用している場合でも，ユーザ間の信頼性が確立されている場合，counts数は同じタスクに対し一致しなければならない．
-Accelerometryで計測した上肢の使用量と，実際の上肢の使用量は高い相関がある(r=0.93)．Accelerometryは脳卒中患者と健常者の上肢使用量の違いを区別することができる．さらに，accelerometryはリハビリ介入後の上肢使用量の増加，減少を示すことができる．
+Accelerometryの信頼性と妥当性
+Accelerometryが有効であるためには，信頼性と妥当性が高くなければならない．\cite{}同じAccelerometryを使用している場合，ユーザが行なっているタスクが同じであるなら，Accelerometryの加速度の合計値は，同じでなければならない．また，異なるAccelerometryを使用している場合でも，ユーザ間の信頼性が確立されている場合，加速度の合計値は同じタスクに対し一致しなければならない．
+Accelerometryは脳卒中患者と健常者の上肢使用量の違いを区別することができる．さらに，accelerometryはリハビリ介入後の上肢使用量の増加，減少を示すことができる．Accelerometryによる上肢機能の評価は，診療所や研究所で行われる上肢機能の評価と高い相関を持っている．
 
-
+\begin{table}[H]
+  \caption{Relationships Between Accelerometer Metrics and Measures of Function According to the ICF}
+  \label{table:measure}
+  \centering
+  \begin{tabular}{ll}
+    \hline
+    Measure & Correlation\\
+    \hline \hline
+    Action Research Arm Test &$r = 0.40–0.59$\cite{Lang2007,Rand2012}\\
+    Wolf Motor Function Test &$r = 0.62$\cite{Lang2007}\\
+    Box and Block Test &$r = 0.62$\cite{Rand2012}\\
+    Motor Activity Log &$r = 0.52–0.91$\cite{Uswatte2000,Uswatte2005,Uswatte2006}\\
+    Stroke Impact Scale &$r = 0.61$\cite{Rand2012}\\
+    \hline
+  \end{tabular}
+\end{table}
 
 
 
 \subsection*{Data Glove}
-Data glove\cite{Lin2018,Tarchanidis2003}は手袋型のセンシング機器である．手袋の中に，曲げセンサまたは光ファイバーが内蔵されている．Data gloveは手全体を覆うセンサが存在しているため，センサによる指や手の動きの阻害や，
-Data gloveの取り外しによる煩雑さ，水で手を洗えないといった問題がある．
-
+Data glove\cite{Lin2018,Tarchanidis2003}は手袋型のセンシング機器である．
+手袋の中に，曲げセンサまたは光ファイバーが内蔵されているタイプと慣性計測装置(IMUセンサ)が手袋に配置されているタイプが存在する．
+Data gloveは手全体を覆うセンサが存在しているため，センサによる指や手の動きの阻害や，
+Data gloveの取り外しによる煩雑さ，水で手を洗えないといった問題がある．Fig.\ref{fig:Data glove}はIMUセンサが手袋に配置されたタイプのData gloveである．
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.6\linewidth]{fig/ch1/dataglove}
-  \caption{Data glove}
+  \includegraphics[width=0.6\linewidth]{fig/ch1/data_glove}
+  \caption{Data glove\cite{Lin2018}}
   \label{fig:Data glove}
 \end{figure}
 
@@ -150,10 +170,7 @@ Motion capture systemはカメラ画像や赤外線距離センサによって�
 \end{figure}
 
 \subsection*{Manumeter}
-Manumeter\cite{Friedman2014}は磁力計と磁石の指輪を用いて手首や指の使用量を測定する手法である．ManumeterをFig.\ref{fig:Manumeter}に示す．手首に取り付けてあるデバイスは磁力計，加速度計とデータ記録のためのストレージ，マイクロコンピュータで構成されている．指の動きを磁石と磁力計間の磁力変化により推定し，指の使用量を測定する．Manumeterは手首の橈屈，尺屈と掌屈，背屈，指の伸展と屈曲を識別する．
-
-
-本手法は指の使用量の測定精度が低いという問題点がある．
+Manumeter\cite{Friedman2014}は磁力計と磁石の指輪を用いて手首や指の使用量を測定する手法である．ManumeterをFig.\ref{fig:Manumeter}に示す．手首に取り付けてあるデバイスは磁力計，加速度計とデータ記録のためのストレージ，マイクロコンピュータで構成されている．指の動きを磁石と磁力計間の磁力変化により推定し，指の使用量を測定する．Manumeterは手首の橈屈，尺屈と掌屈，背屈，指の伸展と屈曲を識別する．Manumeterは$R^2 values=0.39–0.61$指の使用量の測定精度が低いという問題点がある．
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.6\linewidth]{fig/ch1/manumeter}
@@ -210,6 +227,12 @@ Manumeter\cite{Friedman2014}は磁力計と磁石の指輪を用いて手首や�
     \hline
   \end{tabular}
 \end{table}
+
+\section{リング型デバイス}
+\subsection*{ŌURA}
+
+
+
 
 これらの理由から，依然として日常生活下の指の使用量を常時計測する手法は確立していない．本研究では，日常生活下の上肢片麻痺患者の麻痺肢使用，特に指の使用量を測る手法を提案し，手指使用量の常時測定のためのウェアラブルデバイスの開発を目的とする．
 

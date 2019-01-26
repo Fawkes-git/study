@@ -1,0 +1,14 @@
+# Fdb version 3
+["dvipdf"] 1548350748 "_ch5.dvi" "_ch5.pdf" "_ch5" 1548350748
+  "_ch5.dvi" 1548350748 916 52eaf5f5f013657479b92e3c3cd518b3 "latex"
+  (generated)
+  "_ch5.pdf"
+["latex"] 1548350748 "_ch5.tex" "_ch5.dvi" "_ch5" 1548350748
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/eptex/platex.fmt" 1537143692 4475037 a2abdfe1eda95f1c55babfe94029f4d6 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
+  "_ch5.aux" 1548350748 8 a94a2480d3289e625eea47cd1b285758 ""
+  "_ch5.tex" 1548350748 796 7516bfae0baacd199f158ff4504dca6b ""
+  (generated)
+  "_ch5.log"
+  "_ch5.dvi"

@@ -28,46 +28,46 @@ Warning--empty journal in Valtin2017
 Warning--there's a number but no volume in Ren2011
 Warning--empty journal in Utc2018
 Warning--there's a number but no volume in Lin2015
-You've used 56 entries,
+You've used 59 entries,
             2270 wiz_defined-function locations,
-            929 strings with 17066 characters,
-and the built_in function-call counts, 23766 in all, are:
-= -- 1940
-> -- 797
-< -- 152
-+ -- 303
-- -- 247
-* -- 1501
-:= -- 2792
-add.period$ -- 168
-call.type$ -- 56
-change.case$ -- 56
+            947 strings with 17809 characters,
+and the built_in function-call counts, 25039 in all, are:
+= -- 2046
+> -- 836
+< -- 161
++ -- 318
+- -- 259
+* -- 1583
+:= -- 2939
+add.period$ -- 177
+call.type$ -- 59
+change.case$ -- 59
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 1406
-empty$ -- 1983
-format.name$ -- 494
-if$ -- 5839
+cite$ -- 66
+duplicate$ -- 1482
+empty$ -- 2091
+format.name$ -- 518
+if$ -- 6153
 int.to.chr$ -- 0
-int.to.str$ -- 56
-missing$ -- 56
-newline$ -- 283
-num.names$ -- 56
-pop$ -- 246
+int.to.str$ -- 59
+missing$ -- 59
+newline$ -- 298
+num.names$ -- 59
+pop$ -- 258
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1233
+skip$ -- 1299
 stack$ -- 0
-substring$ -- 1590
-swap$ -- 624
-text.length$ -- 152
+substring$ -- 1678
+swap$ -- 658
+text.length$ -- 161
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 7
-while$ -- 208
-width$ -- 58
-write$ -- 613
-is.kanji.str$ -- 786
+while$ -- 220
+width$ -- 61
+write$ -- 646
+is.kanji.str$ -- 828
 (There were 5 error messages)

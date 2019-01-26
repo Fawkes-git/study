@@ -34,6 +34,14 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
@@ -44,14 +52,6 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
-INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
@@ -125,8 +125,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
-OUTPUT _thesis.toc
 OUTPUT _thesis.dvi
+OUTPUT _thesis.toc
 OUTPUT _ch1.aux
 INPUT _ch1.tex
 INPUT _ch1.tex
@@ -161,8 +161,8 @@ INPUT fig/ch1/how.png
 INPUT extractbb -B cropbox -O fig/ch1/how.png
 INPUT fig/ch1/acc.png
 INPUT extractbb -B cropbox -O fig/ch1/acc.png
-INPUT fig/ch1/dataglove.png
-INPUT extractbb -B cropbox -O fig/ch1/dataglove.png
+INPUT fig/ch1/data_glove.png
+INPUT extractbb -B cropbox -O fig/ch1/data_glove.png
 INPUT fig/ch1/mcs.png
 INPUT extractbb -B cropbox -O fig/ch1/mcs.png
 INPUT fig/ch1/manumeter.png
@@ -180,28 +180,34 @@ INPUT fig/fal6.png
 INPUT extractbb -B cropbox -O fig/fal6.png
 INPUT fig/fal7.png
 INPUT extractbb -B cropbox -O fig/fal7.png
-INPUT fig/accelerometer.png
-INPUT extractbb -B cropbox -O fig/accelerometer.png
+INPUT fig/accelerometer_1.png
+INPUT extractbb -B cropbox -O fig/accelerometer_1.png
 INPUT fig/adafruit.png
 INPUT extractbb -B cropbox -O fig/adafruit.png
-INPUT fig/sdcard.png
-INPUT extractbb -B cropbox -O fig/sdcard.png
+INPUT fig/microsdcard.png
+INPUT extractbb -B cropbox -O fig/microsdcard.png
 INPUT fig/battery.png
 INPUT extractbb -B cropbox -O fig/battery.png
+INPUT fig/ph.png
+INPUT extractbb -B cropbox -O fig/ph.png
 INPUT fig/test.pdf
 INPUT extractbb -B cropbox -O fig/test.pdf
+INPUT fig/usbconne.png
+INPUT extractbb -B cropbox -O fig/usbconne.png
+INPUT fig/connecter.jpg
+INPUT extractbb -B cropbox -O fig/connecter.jpg
 INPUT fig/fal4.png
 INPUT extractbb -B cropbox -O fig/fal4.png
 INPUT fig/infrared_linearmodel.png
 INPUT extractbb -B cropbox -O fig/infrared_linearmodel.png
 INPUT fig/accel_linearmodel.png
 INPUT extractbb -B cropbox -O fig/accel_linearmodel.png
-INPUT fig/angle.png
-INPUT extractbb -B cropbox -O fig/angle.png
-INPUT fig/v.png
-INPUT extractbb -B cropbox -O fig/v.png
-INPUT fig/absolute_v.png
-INPUT extractbb -B cropbox -O fig/absolute_v.png
+INPUT fig/angle_.png
+INPUT extractbb -B cropbox -O fig/angle_.png
+INPUT fig/velocity.png
+INPUT extractbb -B cropbox -O fig/velocity.png
+INPUT fig/absolute_velocity.png
+INPUT extractbb -B cropbox -O fig/absolute_velocity.png
 INPUT fig/aggrigated_angle.png
 INPUT extractbb -B cropbox -O fig/aggrigated_angle.png
 INPUT fig/accel_xyz.png
@@ -219,12 +225,16 @@ INPUT fig/sensor.png
 INPUT extractbb -B cropbox -O fig/sensor.png
 INPUT fig/gesture.png
 INPUT extractbb -B cropbox -O fig/gesture.png
-INPUT fig/confusion_matrix.png
-INPUT extractbb -B cropbox -O fig/confusion_matrix.png
 INPUT fig/kotei.jpg
 INPUT extractbb -B cropbox -O fig/kotei.jpg
 INPUT fig/kotei1.png
 INPUT extractbb -B cropbox -O fig/kotei1.png
+OUTPUT _ch4.aux
+INPUT _ch4.tex
+INPUT _ch4.tex
+INPUT fig/gesture.png
+INPUT fig/confusion_matrix.png
+INPUT extractbb -B cropbox -O fig/confusion_matrix.png
 INPUT fig/sub1.png
 INPUT extractbb -B cropbox -O fig/sub1.png
 INPUT fig/sub2.png
@@ -265,11 +275,10 @@ INPUT fig/sub9r.png
 INPUT extractbb -B cropbox -O fig/sub9r.png
 INPUT fig/sub10r.png
 INPUT extractbb -B cropbox -O fig/sub10r.png
-INPUT fig/result.png
-INPUT extractbb -B cropbox -O fig/result.png
-OUTPUT _ch4.aux
-INPUT _ch4.tex
-INPUT _ch4.tex
+INPUT fig/boxplot_angle.png
+INPUT extractbb -B cropbox -O fig/boxplot_angle.png
+INPUT fig/boxplot_accel.png
+INPUT extractbb -B cropbox -O fig/boxplot_accel.png
 OUTPUT _ch5.aux
 INPUT _ch5.tex
 INPUT _ch5.tex

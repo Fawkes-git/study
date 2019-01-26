@@ -1,5 +1,5 @@
 %!TEX root = _thesis.tex
-\chapter{精度評価手法と結果}
+\chapter{実験手法}
 
 \section{指の長さ計測}
 本デバイスのキャリブレーションには，ユーザの指の長さデータが必要である．そのため，ユーザの食指の第二関節から指先までの長さをメジャーを用い，計測した．実験の被験者の食指の第二関節から指先までの長さのデータを以下に示す．また，第二指長の計測結果を以下に示す．被験者は8名が男性，2名が女性である．
@@ -31,9 +31,7 @@
 また，第二指長の平均と標準偏差は
 
 
-
-
-\section{ジェスチャ識別}
+\section{ジェスチャ識別精度の評価}
 予備実験として健常者を対象に，本システムのジェスチャの認識精度を調査した．この実験の際は，LED(Osram SFH4550)とフォトトランジスタセンサ(Honeywell SD5410)の代わりに，赤外線距離センサ(Pololu QTR-1A)を2つ使用し,Fig.\ref{fig:sensor}の位置に取り付けた．
 
 \begin{figure}[H]
@@ -43,8 +41,7 @@
   \label{fig:sensor}
 \end{figure}
 
-ジェスチャの種類をFig.\ref{fig:gesture}に示す．手指を閉じた状態(Fig.\ref{fig:gesture}の1)，示指と母指で輪を作った状態(Fig.\ref{fig:gesture}の2)，手指を開いた状態(Fig.\ref{fig:gesture}の3)，計三つのジェスチャを指示し被験者に行ってもらった．これらのジェスチャは\cite{Lin2015}を元にした．被験者は椅子に座った状態で，本デバイスを装着した手でジェスチャを行った．一つのジェスチャを5秒間保持してもらい，その時のセンサーデータを収集した．
-ジェスチャを5秒間保持している時の，センサ値の標準偏差は推定角度に変換すると被験者平均でSD=$\pm0.12度$であり，ごく小さいものだった．5秒間のセンサーデータを時間で平均したセンサ値をジェスチャ識別のために利用した．
+ジェスチャの種類をFig.\ref{fig:gesture}に示す．手指を閉じた状態(Fig.\ref{fig:gesture}の1)，示指と母指で輪を作った状態(Fig.\ref{fig:gesture}の2)，手指を開いた状態(Fig.\ref{fig:gesture}の3)，計三つのジェスチャを指示し被験者に行ってもらった．これらのジェスチャは\cite{Lin2015}を元にした．被験者は椅子に座った状態で，本デバイスを装着した手でジェスチャを行った．被験者は一つのジェスチャを5秒間保持する．ジェスチャ時のセンサーデータを収集した．ジェスチャを5秒間保持している時の，センサ値の標準偏差は推定角度に変換すると被験者平均でSD=$\pm0.12度$であり，ごく小さいものだった．5秒間のセンサーデータを時間で平均したセンサ値をジェスチャ識別のために利用した．
 また，センサデータは各ジェスチャにつき60回記録し，五人の被験者センサデータを収集した．センシングの際のサンプルレートは100\ Hzとした．
 合計で一人につき180データ(60データ$\times$3ジェスチャ)を収集した．
 
@@ -55,21 +52,10 @@
   \label{fig:gesture}
 \end{figure}
 
-三つのジェスチャを識別するため，一対一分類法，線形Support Vector Machineを用いた．五人すべて，900データ(180データ$\times$五人)をジェスチャごとにラベル分けし，ジェスチャ識別に利用した．これらのデータの内，各ラベルに対し，データの80\%をトレーニングデータ，20\%をテストデータとした．
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\linewidth]{fig/confusion_matrix}
-  \caption{Confusion matrix of 3-gesture}
-  \label{fig:matrix}
-\end{figure}
+三つのジェスチャを識別するため，一対一分類法，線形Support Vector Machineを用いた．五人すべて，900データ(180データ$\times$五人)をジェスチャごとにラベル分けし，ジェスチャ識別に利用した．これらのデータの内，各ラベルに対し，データの80\%をトレーニングデータ，20\%をテストデータとし,5-fold cross validationを行なった．
 
 
-Fig.\ref{fig:matrix}より，ジェスチャ１と３を100\%の正解率で識別することが可能であることが分かった．五分割交差検証を行った結果，ジェスチャの平均正解率は98.9\%，分散3.9\%であった．この結果から本手法により三つのジェスチャの識別が可能であることが示された．
-
-
-
-\section{関節角度推定}
+\section{関節角度推定精度の評価}
 健常者十人を対象に本デバイスの関節角度の推定精度の評価を行なった.被験者の指の関節を0$\sim$90°まで15°刻みで固定し，その時の関節角度の推定精度を評価した．指関節角度の固定には以下のFig\ref{fig:kotei}に示す器具を使用する．この器具は3DCAD(Fusion 360)で設計し，3Dプリンタ(Dimension 1200es)で印刷し作成した．この器具をFig.\ref{fig:kotei}(b)に示すとおり，食指の第二関節にあて関節角度を固定する．Fig.\ref{fig:kotei}(b)では$45^\circ$に固定されている．
 
 
@@ -102,177 +88,24 @@ Res_i = Pred_i - True_i
 $Pred_iとTrue_i$はそれぞれ，計測$i$回目の時の推定角度と正解角度を示している．推定角度は，赤外線距離センサからの信号に処理を加え，Fig.\ref{fig:principle}に示す関係より推定した角度である．正解角度は，センシング時に指関節にあてているFig.\ref{fig:kotei}に示した，0$\sim$90$^\circ$の固定器具の角度である．
 また，$Res_i$は$i$回目の計測時の正解角度と推定角度の誤差を示す．
 
-以下に実験結果を示す．以下の表は被験者ごとの，推定角度と正解角度のMean Absolute Errorと相関係数を示した表である．
+
+\section{Acceleromertyとの日常生活，リハビリ動作評価の比較}
+既存手法のAcceleromertyと本手法の比較を行った．
+accelerometryでは，感知できなかった指の使用動作を検知できるか
+本デバイスに加速度センサを搭載し，実験を行なった．
 
 
-\begin{table}[H]
-  \caption{MAE and R between{}
-True Angle and Predicted Angle (n=10)}
-  \label{table:data_type}
-  \centering
-  \begin{tabular}{ccc}
-    \hline
-    Subjects  & Mean Absolute Error$^\circ$  & Correlation coefficient  \\
-    \hline \hline
-    A  & 2.71 & 0.993\\
-    B  & 2.62 & 0.995\\
-    C  & 6.61 & 0.985\\
-    D  & 5.01 & 0.994\\
-    E  & 2.33 & 0.995\\ 
-    F  & 2.87 & 0.995\\
-    G  & 1.57 & 0.998\\
-    H  & 2.87 & 0.992\\
-    I  & 3.04 & 0.986\\
-    J  & 2.41 & 0.994\\
-    \hline
-  \end{tabular}
-\end{table}
-
-MAEの被験者平均は $3.20^\circ$ (SD=$1.48^\circ$)であった.
-また，Rの被験者平均は0.991(SD=0.005)であった．
-
-以下のFig.\ref{fig:linear}は，被験者ごとに推定角度に基づいて，正解角度を線形回帰により求めた図である．0,90度の時のプロットの分散が小さいことが分かる．これは，キャリブレーションを0,90度の際のジェスチャを基準として行なっているためだと考えられる．(c)ではLinear Regressionの傾きが，(d)では切片が，Unityから外れているが，その他は，大きく予測を外しているプロットもなく，良好な角度推定ができていると言える．
-
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\subfigure[Subject A]{
-\includegraphics[scale=0.3]{fig/sub1.png}
-} &
-\subfigure[Subject B]{
-\includegraphics[scale=0.3]{fig/sub2.png}
-} \\
-\subfigure[Subject C]{
-\includegraphics[scale=0.3]{fig/sub3.png}
-} &
-\subfigure[Subject D]{
-\includegraphics[scale=0.3]{fig/sub4.png}
-} \\
-\subfigure[Subject E]{
-\includegraphics[scale=0.3]{fig/sub5.png}
-} &
-\subfigure[Subject F]{
-\includegraphics[scale=0.3]{fig/sub6.png}
-} \\
-\end{tabular}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\setcounter{subfigure}{6}
-\subfigure[Subject G]{
-\includegraphics[scale=0.3]{fig/sub7.png}
-} &
-\subfigure[Subject H]{
-\includegraphics[scale=0.3]{fig/sub8.png}
-} \\
-\subfigure[Subject I]{
-\includegraphics[scale=0.3]{fig/sub9.png}
-} &
-\subfigure[Subject J]{
-\includegraphics[scale=0.3]{fig/sub10.png}
-} \\
-\end{tabular}
-\caption{Observed-Predicted Plot}
-\label{fig:linear}
-\end{center}
-\end{figure}
-
-
-以下のFig.\ref{fig:res}は，被験者ごとに，正解角度と予測角度の誤差$Res_i$をプロットしたグラフである．
-
-
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\subfigure[Subject A]{
-\includegraphics[scale=0.3]{fig/sub1r.png}
-} &
-\subfigure[Subject B]{
-\includegraphics[scale=0.3]{fig/sub2r.png}
-} \\
-\subfigure[Subject C]{
-\includegraphics[scale=0.3]{fig/sub3r.png}
-} &
-\subfigure[Subject D]{
-\includegraphics[scale=0.3]{fig/sub4r.png}
-} \\
-\subfigure[Subject E]{
-\includegraphics[scale=0.3]{fig/sub5r.png}
-} &
-\subfigure[Subject F]{
-\includegraphics[scale=0.3]{fig/sub6r.png}
-} \\
-\end{tabular}
-\end{center}
-\end{figure}
-
-
-\begin{figure}[H]
-\begin{center}
-\begin{tabular}{cc}
-\setcounter{subfigure}{6}
-\subfigure[Subject G]{
-\includegraphics[scale=0.3]{fig/sub7r.png}
-} &
-\subfigure[Subject H]{
-\includegraphics[scale=0.3]{fig/sub8r.png}
-} \\
-\subfigure[Subject I]{
-\includegraphics[scale=0.3]{fig/sub9r.png}
-} &
-\subfigure[Subject J]{
-\includegraphics[scale=0.3]{fig/sub10r.png}
-} \\
-\end{tabular}
-\caption{Residuals plot}
-\label{fig:res}
-\end{center}
-\end{figure}
-
-
-結果から本手法により関節角度が推定でき，手指使用量を計測可能であることが示唆された.
-
-\section{日常生活動作タスクの評価}
 本手法により，日常生活動作の評価が可能かを調査した．調査の方法を以下に示す．
 六つのタスクをそれぞれ5分間，合計30分間，以下の順番で八人の被験者が行った．
 被験者は左利きが一人，右利きが七人であり，二人が女性，六人が男性であった．
 また全ての被験者は健常者であった．実験を行う際，Fig.\ref{fig:ring}に示すように，三軸加速度計(データ記録部)を被験者の両手首，赤外線距離センサを両手の食指に装着し同時計測した．
 
 本実験で被験者に指示したタスクを以下に示す．
-\if0
-\begin{description}
-\item[箸を使い食事]
-被験者は利き手に箸を持ち，三つの皿に分けられた食品を口に運び食す．
-
-\item[布巾でテーブルを拭く]
-被験者は利き手に布巾を持ち，70cm四方のテーブルを拭く．
-
-\item[タイピング]
-被験者は両手を用い，タイピングゲームを行う．
-
-\item[ライティング]
-被験者は利き手にボールペンを持ち，文字の書き取りを行う．
-
-\item[洗濯物を畳む]
-被験者は両手を用い，布巾を畳む，広げるを繰り返す．
-
-\item[Pole peg testを行う]
-被験者は利き手で，十本のペグをホールに入れる，ペグをホールから取り出すを繰り返す．
-
-\end{description}
-\fi
 \begin{table}[H]
-  \caption{日常生活動作とリハビリテーションタスク}
-  \label{table:tasks}
-  \centering
-  \begin{tabular}{ll}
-    \hline
-    Task &  Detail  \\
-    \hline \hline
+  \begin{tabular}{cc}
+    \hline 
+    Tasks&   Details\\
+        \hline \hline
 箸を使い食事&
 被験者は利き手に箸を持ち，三つの皿に分けられた食品を口に運び食す．\\
 
@@ -296,14 +129,4 @@ Hole peg testを行う&
 \end{table}
 
 これらのタスクは生活日常動作五つと，リハビリテーション動作のBox and block testからなり，\cite{Taub2011,Mathiowetz1985}を参考にした．
-
-
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=0.8\linewidth]{fig/result}
-  \caption{Aggrigated usage of finger and arm}
-  \label{fig:usage}
-\end{figure}
-
-
-テーブルを拭くタスクでは，指の使用量が他のタスクに比べ少ない．
+タスクの説明をもっと詳しく書く．
