@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  29 JAN 2019 06:14
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  29 JAN 2019 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,8 +372,8 @@ File: fig/ch1/babt.jpeg Graphic file (type bmp)
 File: fig/ch1/nine.png Graphic file (type bmp)
 <fig/ch1/nine.png>
  [3]
-File: fig/ch1/mal.png Graphic file (type bmp)
-<fig/ch1/mal.png>
+File: fig/ch1/mal3.png Graphic file (type bmp)
+<fig/ch1/mal3.png>
 File: fig/ch1/amount.png Graphic file (type bmp)
 <fig/ch1/amount.png>
 File: fig/ch1/how.png Graphic file (type bmp)
@@ -393,7 +393,7 @@ File: fig/ch1/manumeter.png Graphic file (type bmp)
 File: fig/ch1/btp.png Graphic file (type bmp)
 <fig/ch1/btp.png>
  [9]
-Overfull \hbox (21.85263pt too wide) in paragraph at lines 203--216
+Overfull \hbox (21.85263pt too wide) in paragraph at lines 201--214
  [][] 
  []
 
@@ -442,8 +442,8 @@ File: fig/battery.png Graphic file (type bmp)
  [19]
 File: fig/ph.png Graphic file (type bmp)
 <fig/ph.png>
-File: fig/test.ps Graphic file (type eps)
-<fig/test.ps>
+File: fig/circuit.png Graphic file (type bmp)
+<fig/circuit.png>
  [20]
 File: fig/usbconne.png Graphic file (type bmp)
 <fig/usbconne.png>
@@ -453,7 +453,7 @@ File: fig/connecter.jpg Graphic file (type bmp)
 File: fig/fal4.png Graphic file (type bmp)
 <fig/fal4.png>
  [22]
-Overfull \hbox (31.85263pt too wide) in paragraph at lines 264--279
+Overfull \hbox (31.85263pt too wide) in paragraph at lines 258--273
  [][] 
  []
 
@@ -463,11 +463,15 @@ File: fig/infrared_linearmodel.png Graphic file (type bmp)
 File: fig/accel_linearmodel.png Graphic file (type bmp)
 <fig/accel_linearmodel.png>
  [24] [25]
+Overfull \hbox (25.32199pt too wide) in paragraph at lines 330--354
+ [][] 
+ []
+
 File: fig/angle_.png Graphic file (type bmp)
 <fig/angle_.png>
 File: fig/velocity.png Graphic file (type bmp)
 <fig/velocity.png>
- [26]
+[26]
 File: fig/absolute_velocity.png Graphic file (type bmp)
 <fig/absolute_velocity.png>
 File: fig/aggrigated_angle.png Graphic file (type bmp)
@@ -601,12 +605,12 @@ No file _thesis.ind.
 (./_thesis.aux (./abstract.aux) (./_ch1.aux) (./_ch2.aux) (./_ch3.aux)
 (./_ch4.aux) (./_ch5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2966 strings out of 493281
- 37441 string characters out of 6145041
+ 2958 strings out of 493281
+ 37423 string characters out of 6145041
  107703 words of memory out of 5000000
  6714 multiletter control sequences out of 15000+600000
  18305 words of font info for 83 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  34i,13n,27p,1874b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _thesis.dvi (51 pages, 152744 bytes).
+Output written on _thesis.dvi (51 pages, 153900 bytes).

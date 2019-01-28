@@ -158,8 +158,8 @@ INPUT fig/ch1/babt.jpeg
 INPUT extractbb -B cropbox -O fig/ch1/babt.jpeg
 INPUT fig/ch1/nine.png
 INPUT extractbb -B cropbox -O fig/ch1/nine.png
-INPUT fig/ch1/mal.png
-INPUT extractbb -B cropbox -O fig/ch1/mal.png
+INPUT fig/ch1/mal3.png
+INPUT extractbb -B cropbox -O fig/ch1/mal3.png
 INPUT fig/ch1/amount.png
 INPUT extractbb -B cropbox -O fig/ch1/amount.png
 INPUT fig/ch1/how.png
@@ -201,8 +201,8 @@ INPUT fig/battery.png
 INPUT extractbb -B cropbox -O fig/battery.png
 INPUT fig/ph.png
 INPUT extractbb -B cropbox -O fig/ph.png
-INPUT fig/test.ps
-INPUT fig/test.ps
+INPUT fig/circuit.png
+INPUT extractbb -B cropbox -O fig/circuit.png
 INPUT fig/usbconne.png
 INPUT extractbb -B cropbox -O fig/usbconne.png
 INPUT fig/connecter.jpg
