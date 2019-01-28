@@ -78,6 +78,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
 OUTPUT _thesis.idx
 INPUT _thesis.aux
 INPUT _thesis.aux
+INPUT abstract.aux
+INPUT abstract.aux
 INPUT _ch1.aux
 INPUT _ch1.aux
 INPUT _ch2.aux
@@ -89,6 +91,16 @@ INPUT _ch4.aux
 INPUT _ch5.aux
 INPUT _ch5.aux
 OUTPUT _thesis.aux
+OUTPUT abstract.aux
+INPUT abstract.tex
+INPUT abstract.tex
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
+INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+OUTPUT _thesis.dvi
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
@@ -125,20 +137,13 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
-OUTPUT _thesis.dvi
 OUTPUT _thesis.toc
 OUTPUT _ch1.aux
 INPUT _ch1.tex
 INPUT _ch1.tex
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
-INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
@@ -151,8 +156,8 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT fig/ch1/babt.jpeg
 INPUT extractbb -B cropbox -O fig/ch1/babt.jpeg
-INPUT fig/ch1/nhpt.jpg
-INPUT extractbb -B cropbox -O fig/ch1/nhpt.jpg
+INPUT fig/ch1/nine.png
+INPUT extractbb -B cropbox -O fig/ch1/nine.png
 INPUT fig/ch1/mal.png
 INPUT extractbb -B cropbox -O fig/ch1/mal.png
 INPUT fig/ch1/amount.png
@@ -169,6 +174,12 @@ INPUT fig/ch1/manumeter.png
 INPUT extractbb -B cropbox -O fig/ch1/manumeter.png
 INPUT fig/ch1/btp.png
 INPUT extractbb -B cropbox -O fig/ch1/btp.png
+INPUT fig/ch1/oura.png
+INPUT extractbb -B cropbox -O fig/ch1/oura.png
+INPUT fig/ch1/magicring.png
+INPUT extractbb -B cropbox -O fig/ch1/magicring.png
+INPUT fig/ch1/iring.png
+INPUT extractbb -B cropbox -O fig/ch1/iring.png
 OUTPUT _ch2.aux
 INPUT _ch2.tex
 INPUT _ch2.tex
@@ -178,8 +189,8 @@ INPUT fig/principle.png
 INPUT extractbb -B cropbox -O fig/principle.png
 INPUT fig/fal6.png
 INPUT extractbb -B cropbox -O fig/fal6.png
-INPUT fig/fal7.png
-INPUT extractbb -B cropbox -O fig/fal7.png
+INPUT fig/ring_led.png
+INPUT extractbb -B cropbox -O fig/ring_led.png
 INPUT fig/accelerometer_1.png
 INPUT extractbb -B cropbox -O fig/accelerometer_1.png
 INPUT fig/adafruit.png
@@ -190,8 +201,8 @@ INPUT fig/battery.png
 INPUT extractbb -B cropbox -O fig/battery.png
 INPUT fig/ph.png
 INPUT extractbb -B cropbox -O fig/ph.png
-INPUT fig/test.pdf
-INPUT extractbb -B cropbox -O fig/test.pdf
+INPUT fig/test.ps
+INPUT fig/test.ps
 INPUT fig/usbconne.png
 INPUT extractbb -B cropbox -O fig/usbconne.png
 INPUT fig/connecter.jpg
@@ -286,6 +297,8 @@ INPUT _thesis.bbl
 INPUT _thesis.bbl
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT _thesis.aux
+INPUT abstract.aux
+INPUT abstract.aux
 INPUT _ch1.aux
 INPUT _ch1.aux
 INPUT _ch2.aux

@@ -2,19 +2,21 @@ This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: _thesis.aux
 The style file: junsrt.bst
+A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: _ch1.aux
 A level-1 auxiliary file: _ch2.aux
 A level-1 auxiliary file: _ch3.aux
 A level-1 auxiliary file: _ch4.aux
 A level-1 auxiliary file: _ch5.aux
-Illegal, another \bibstyle command---line 8 of file _thesis.aux
+Illegal, another \bibstyle command---line 9 of file _thesis.aux
  : \bibstyle
  :          {jplain}
 I'm skipping whatever remains of this command
 Database file #1: library.bib
-Warning--I didn't find a database entry for ""
 Warning--empty journal in Zeiler2017
 Warning--there's a number but no volume in Lang2017
+Warning--empty journal in Mathiowetz
+Warning--empty year in Mathiowetz
 Name 3 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
 while executing---line 1216 of file junsrt.bst
 Name 3 in "Dwiputra, Fajar Akhmad and Achmad, Balza and Faridah, - and Herianto, -" has a comma at the end for entry Dwiputra2017
@@ -28,46 +30,46 @@ Warning--empty journal in Valtin2017
 Warning--there's a number but no volume in Ren2011
 Warning--empty journal in Utc2018
 Warning--there's a number but no volume in Lin2015
-You've used 59 entries,
+You've used 64 entries,
             2270 wiz_defined-function locations,
-            947 strings with 17809 characters,
-and the built_in function-call counts, 25039 in all, are:
-= -- 2046
-> -- 836
-< -- 161
-+ -- 318
-- -- 259
-* -- 1583
-:= -- 2939
-add.period$ -- 177
-call.type$ -- 59
-change.case$ -- 59
+            979 strings with 18755 characters,
+and the built_in function-call counts, 26668 in all, are:
+= -- 2176
+> -- 883
+< -- 169
++ -- 337
+- -- 273
+* -- 1670
+:= -- 3138
+add.period$ -- 191
+call.type$ -- 64
+change.case$ -- 64
 chr.to.int$ -- 0
-cite$ -- 66
-duplicate$ -- 1482
-empty$ -- 2091
-format.name$ -- 518
-if$ -- 6153
+cite$ -- 73
+duplicate$ -- 1585
+empty$ -- 2241
+format.name$ -- 546
+if$ -- 6550
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 59
-newline$ -- 298
-num.names$ -- 59
-pop$ -- 258
+int.to.str$ -- 64
+missing$ -- 64
+newline$ -- 322
+num.names$ -- 64
+pop$ -- 285
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1299
+skip$ -- 1386
 stack$ -- 0
-substring$ -- 1678
-swap$ -- 658
-text.length$ -- 161
+substring$ -- 1769
+swap$ -- 692
+text.length$ -- 169
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 7
-while$ -- 220
-width$ -- 61
-write$ -- 646
-is.kanji.str$ -- 828
+warning$ -- 9
+while$ -- 237
+width$ -- 66
+write$ -- 697
+is.kanji.str$ -- 883
 (There were 5 error messages)

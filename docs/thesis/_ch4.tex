@@ -2,15 +2,15 @@
 \chapter{実験結果と考察}
 
 \section{ジェスチャ識別結果}
-
 各ジェスチャを行なっている時のセンサデータをラベル付けし，
-SVMモデルを5-fold cross validationを行なった結果を以下のFig.\ref{fig:matrix}に示す．
+SVMモデルに対し，五分割交差検証を行なった結果を以下のFig.\ref{fig:matrix}に示す．
+
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/gesture}
   \caption{Prepared hand-gesture set}
-  \label{fig:gesture}
+  \label{fig:gestures}
 \end{figure}
 
 \begin{figure}[H]
@@ -21,13 +21,13 @@ SVMモデルを5-fold cross validationを行なった結果を以下のFig.\ref{
 \end{figure}
 
 
-Fig.\ref{fig:matrix}より，ジェスチャ１と３を100\%の正解率で識別することが可能であることが分かった．
+Fig.\ref{fig:matrix}より，ジェスチャ1と3を100\%の正解率で識別することが可能であることが分かった．
 五分割交差検証を行った結果，ジェスチャ全体の平均正解率は98.9\%，分散3.9\%であった．この結果から本手法により三つのジェスチャの識別が可能であることが示された．
 
 \section{関節角度推定結果}
 
 
-以下に実験結果を示す．以下の表は被験者ごとの，推定角度と正解角度のMean Absolute Errorと相関係数を示した表である．
+以下に実験結果を示す．以下のTable.\ref{table:data_type}は被験者ごとの，推定角度と正解角度のMean Absolute Errorと相関係数を示した表である．
 
 
 \begin{table}[H]
@@ -56,9 +56,14 @@ True Angle and Predicted Angle (n=10)}
 MAEの被験者平均は $3.20^\circ$ (SD=$1.48^\circ$)であった.
 また，Rの被験者平均は0.991(SD=0.005)であった．
 Manumeterでは指の関節角度の推定精度MAEが$4.7^\circ$である\cite{Friedman2014}．
-よって， 本手法は既存の手法よりも高い関節角度の推定精度を持つことが言える．
+よって， 本手法は既存の手法よりも高い関節角度の推定精度を持つことが言える．また，3秒間の測定中のセンサ値の揺らぎ(標準偏差)は小さく，
+推定角度に変換すると被験者平均でSD=$\pm0.12^\circ$であった．
 
-以下のFig.\ref{fig:linear}は，被験者ごとに推定角度に基づいて，正解角度を線形回帰により求めた図である．0,90度の時のプロットの分散が小さいことが分かる．これは，キャリブレーションを0,90度の際のジェスチャを基準として行なっているためだと考えられる．(c)ではLinear Regressionの傾きが，(d)では切片が，Unityから外れているが，その他は，大きく予測を外しているプロットもなく，良好な角度推定ができていると言える．
+以下のFig.\ref{fig:linear}は，被験者ごとに，得られた推定角度のデータに基づいて線形回帰を行なった図である．
+0,90度の時のプロットの分散が小さいことが分かる．
+これは，キャリブレーションを0,90度の際のジェスチャを基準として行なっているためだと考えられる．
+(c)ではLinear Regressionの傾きが，(d)では切片が，Unityから外れているが，
+その他は，大きく予測を外しているプロットもなく，良好な角度推定ができていると言える．
 
 \begin{figure}[H]
 \begin{center}
@@ -189,9 +194,9 @@ Angle,Accelerationともに，タスク間で代表値に違いがあったた�
 Games-Howel法で各タスクの1対1の対比較を行なった．
 Games-Howel法は，正規性，等分散性の制限のないノンパラメトリック検定である．
 Games-Howel法で検定した結果を以下のTable.\ref{table:games}に示す．
-eat vs. fold，eat vs. peg，fold vs. write，peg vs. writeの比較ではAngle,Accelerationともに有意差が見られた．
-eat vs. wipe，eat vs. write，fold vs. type，peg vs. typeの比較ではAccelerationのみに有意差が見られた．
-fold vs. wipe ，peg vs. wipeの比較ではAngleのみに有意差が見られた．
+eat vs fold，eat vs peg，fold vs write，peg vs writeの比較ではAngle,Accelerationともに有意差が見られた．
+eat vs wipe，eat vs write，fold vs type，peg vs typeの比較ではAccelerationのみに有意差が見られた．
+fold vs wipe ，peg vs wipeの比較ではAngleのみに有意差が見られた．
 
 \begin{table}[H]
   \caption{Games-Howel test p-value}
@@ -227,7 +232,7 @@ wipe vs. write   & 0.93563&0.22543\\
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/boxplot_angle}
-  \caption{Aggrigated usage of finger }
+  \caption{Aggrigated usage of angle}
   \label{fig:angle_usage}
 \end{figure}
 
@@ -237,7 +242,7 @@ wipe vs. write   & 0.93563&0.22543\\
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/boxplot_accel}
-  \caption{Aggrigated usage of arm}
+  \caption{Aggrigated usage of acceleration}
   \label{fig:accel_usage}
 \end{figure}
 
@@ -248,23 +253,15 @@ Angleには有意差が認められ，Accelerationには有意差が認められ
 
 
 \section{考察}
+タスクによって指の使用量が違うことが考えられる．
+例えば，布巾で机を拭くタスクを行なっている時は指の関節角度の変化が少なく，指の使用量が小さいことが考えられる．
+布巾を畳むタスクや，ペグを抜き差しするタスクは，指を使って布巾をつまみ畳む動作や，ペグをつまむ動作があり，指の関節角度の変化が多く，
+指の使用量が大きいことが考えられる．本手法ではAccelerometryでは示すことができなかったwipeとfold,pegの指の使用量の違いを示すことができた．
 Accelerometryと本手法を組み合わせることで，腕の使用量のみではなく，指の使用量の評価が行えることが示唆された．
 
-\begin{table}[H]
-  \caption{Comparison of our proposed device and other device}
-  \label{table:comparison}
-  \centering
-  \begin{tabular}{ccccc}
-    \hline
-    System &  Accelerometry with Proposed device & Accelerometry & Data glove & Motion Capture System\\
-    \hline \hline
-    a&A&A&A&A\\
-
-
-    \hline
-  \end{tabular}
-\end{table}
-
-
-
+Manumeterは複数の指の使用量測定をする場合，単一の指を測定するときに比べ，測定精度が低下することが懸念される．
+理由は，Manumeterは磁石の指輪を指に装着するため，磁力計が独立した複数の磁石の動きをうまく検出できないことである．
+一方，本デバイスは，磁力計ではなく，赤外線距離センサを利用しており，
+複数の指の動きの計測であっても測定精度には何ら影響がないと考えられる．
+そのため，Manumeterに比べ，本デバイスは複数の指の使用量を測定可能である優位性を持つ．
 

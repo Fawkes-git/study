@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  26 JAN 2019 00:06
+This is e-pTeX, Version 3.14159265-p3.8.0-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.9.17)  29 JAN 2019 06:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -257,25 +257,8 @@ Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
 
 
 Writing index file _thesis.idx
-(./_thesis.aux (./_ch1.aux
-
-LaTeX Warning: Label `table:measure' multiply defined.
-
-
-LaTeX Warning: Label `table:measure' multiply defined.
-
-) (./_ch2.aux
-
-LaTeX Warning: Label `fig:accel_xyz' multiply defined.
-
-
-LaTeX Warning: Label `fig:accel_xyz' multiply defined.
-
-) (./_ch3.aux) (./_ch4.aux
-
-LaTeX Warning: Label `fig:gesture' multiply defined.
-
-) (./_ch5.aux))
+(./_thesis.aux (./abstract.aux) (./_ch1.aux) (./_ch2.aux) (./_ch3.aux)
+(./_ch4.aux) (./_ch5.aux))
 \openout1 = `_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -294,6 +277,22 @@ LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 4.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 4.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 6.
+) [1
+
+
+
+]
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 61.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
@@ -326,51 +325,42 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 2.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 32.
+(Font)              scaled to size 9.60999pt on input line 33.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 32.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 33.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 32.
- [1
-
+(Font)              scaled to size 9.60999pt on input line 33.
+ [2
 
 
 ])
 \tf@toc=\write4
 \openout4 = `_thesis.toc'.
 
- [2]
+ [3]
 \openout2 = `_ch1.aux'.
 
 
 (./_ch1.tex
 第1章
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 4.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 13.83836pt on input line 4.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
 LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
+(Font)              scaled to size 11.53198pt on input line 26.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 11.53198pt on input line 20.
+(Font)              scaled to size 11.53198pt on input line 26.
 File: fig/ch1/ARAT_kit.jpg Graphic file (type bmp)
 <fig/ch1/ARAT_kit.jpg>
 File: fig/ch1/ARAT_SCORING.jpg Graphic file (type bmp)
 <fig/ch1/ARAT_SCORING.jpg>
 LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 35.
+(Font)              scaled to size 8.64899pt on input line 41.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 8.64899pt on input line 35.
+(Font)              scaled to size 8.64899pt on input line 41.
 [1
 
 
@@ -379,8 +369,8 @@ LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
 File: fig/ch1/babt.jpeg Graphic file (type bmp)
 <fig/ch1/babt.jpeg>
  [2]
-File: fig/ch1/nhpt.jpg Graphic file (type bmp)
-<fig/ch1/nhpt.jpg>
+File: fig/ch1/nine.png Graphic file (type bmp)
+<fig/ch1/nine.png>
  [3]
 File: fig/ch1/mal.png Graphic file (type bmp)
 <fig/ch1/mal.png>
@@ -392,15 +382,9 @@ File: fig/ch1/how.png Graphic file (type bmp)
 File: fig/ch1/acc.png Graphic file (type bmp)
 <fig/ch1/acc.png>
  [6]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 139.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 142.
-
 File: fig/ch1/data_glove.png Graphic file (type bmp)
 <fig/ch1/data_glove.png>
-[7]
+ [7]
 File: fig/ch1/mcs.png Graphic file (type bmp)
 <fig/ch1/mcs.png>
  [8]
@@ -409,11 +393,19 @@ File: fig/ch1/manumeter.png Graphic file (type bmp)
 File: fig/ch1/btp.png Graphic file (type bmp)
 <fig/ch1/btp.png>
  [9]
-Overfull \hbox (21.85263pt too wide) in paragraph at lines 200--213
+Overfull \hbox (21.85263pt too wide) in paragraph at lines 203--216
  [][] 
  []
 
-[10]) [11]
+[10]
+File: fig/ch1/oura.png Graphic file (type bmp)
+<fig/ch1/oura.png>
+File: fig/ch1/magicring.png Graphic file (type bmp)
+<fig/ch1/magicring.png>
+ [11]
+File: fig/ch1/iring.png Graphic file (type bmp)
+<fig/ch1/iring.png>
+ [12]) [13]
 \openout2 = `_ch2.aux'.
 
  (./_ch2.tex
@@ -424,7 +416,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [12
+ [14
 
 
 
@@ -433,76 +425,72 @@ File: fig/principle.png Graphic file (type bmp)
 <fig/principle.png>
 File: fig/fal6.png Graphic file (type bmp)
 <fig/fal6.png>
- [13]
-[14]
-File: fig/fal7.png Graphic file (type bmp)
-<fig/fal7.png>
  [15]
+[16]
+File: fig/ring_led.png Graphic file (type bmp)
+<fig/ring_led.png>
+ [17]
 File: fig/accelerometer_1.png Graphic file (type bmp)
 <fig/accelerometer_1.png>
 File: fig/adafruit.png Graphic file (type bmp)
 <fig/adafruit.png>
- [16]
+ [18]
 File: fig/microsdcard.png Graphic file (type bmp)
 <fig/microsdcard.png>
 File: fig/battery.png Graphic file (type bmp)
 <fig/battery.png>
- [17]
+ [19]
 File: fig/ph.png Graphic file (type bmp)
 <fig/ph.png>
-File: fig/test.pdf Graphic file (type pdf)
-<fig/test.pdf>
- [18]
+File: fig/test.ps Graphic file (type eps)
+<fig/test.ps>
+ [20]
 File: fig/usbconne.png Graphic file (type bmp)
 <fig/usbconne.png>
+ [21]
 File: fig/connecter.jpg Graphic file (type bmp)
 <fig/connecter.jpg>
- [19]
 File: fig/fal4.png Graphic file (type bmp)
 <fig/fal4.png>
- [20]
-Overfull \hbox (31.85263pt too wide) in paragraph at lines 269--284
+ [22]
+Overfull \hbox (31.85263pt too wide) in paragraph at lines 264--279
  [][] 
  []
 
+[23]
 File: fig/infrared_linearmodel.png Graphic file (type bmp)
 <fig/infrared_linearmodel.png>
-[21]
 File: fig/accel_linearmodel.png Graphic file (type bmp)
 <fig/accel_linearmodel.png>
- [22]
-Overfull \hbox (41.00073pt too wide) in paragraph at lines 343--367
- [][] 
- []
-
+ [24] [25]
 File: fig/angle_.png Graphic file (type bmp)
 <fig/angle_.png>
-[23]
 File: fig/velocity.png Graphic file (type bmp)
 <fig/velocity.png>
+ [26]
 File: fig/absolute_velocity.png Graphic file (type bmp)
 <fig/absolute_velocity.png>
- [24]
 File: fig/aggrigated_angle.png Graphic file (type bmp)
 <fig/aggrigated_angle.png>
+ [27]
 File: fig/accel_xyz.png Graphic file (type bmp)
 <fig/accel_xyz.png>
- [25]
 File: fig/jerk_xyz.png Graphic file (type bmp)
 <fig/jerk_xyz.png>
- [26]
+ [28]
 File: fig/norm_jerk.png Graphic file (type bmp)
 <fig/norm_jerk.png>
+ [29]
 File: fig/aggrigated_accel.png Graphic file (type bmp)
 <fig/aggrigated_accel.png>
- [27]) [28]
+) [30]
 \openout2 = `_ch3.aux'.
 
  (./_ch3.tex
 第3章
 File: fig/sensor.png Graphic file (type bmp)
 <fig/sensor.png>
-[29
+[31
 
 
 
@@ -513,12 +501,12 @@ File: fig/kotei.jpg Graphic file (type bmp)
 <fig/kotei.jpg>
 File: fig/kotei1.png Graphic file (type bmp)
 <fig/kotei1.png>
- [30]
-Overfull \hbox (41.00073pt too wide) in paragraph at lines 105--129
+ [32]
+Overfull \hbox (25.32199pt too wide) in paragraph at lines 113--138
 [][] 
  []
 
-) [31] [32]
+[33]) [34]
 \openout2 = `_ch4.aux'.
 
  (./_ch4.tex
@@ -527,7 +515,7 @@ File: fig/gesture.png Graphic file (type bmp)
 <fig/gesture.png>
 File: fig/confusion_matrix.png Graphic file (type bmp)
 <fig/confusion_matrix.png>
-[33
+[35
 
 
 
@@ -544,7 +532,7 @@ File: fig/sub5.png Graphic file (type bmp)
 <fig/sub5.png>
 File: fig/sub6.png Graphic file (type bmp)
 <fig/sub6.png>
- [34]
+ [36]
 File: fig/sub7.png Graphic file (type bmp)
 <fig/sub7.png>
 File: fig/sub8.png Graphic file (type bmp)
@@ -553,7 +541,7 @@ File: fig/sub9.png Graphic file (type bmp)
 <fig/sub9.png>
 File: fig/sub10.png Graphic file (type bmp)
 <fig/sub10.png>
- [35]
+ [37]
 File: fig/sub1r.png Graphic file (type bmp)
 <fig/sub1r.png>
 File: fig/sub2r.png Graphic file (type bmp)
@@ -566,7 +554,7 @@ File: fig/sub5r.png Graphic file (type bmp)
 <fig/sub5r.png>
 File: fig/sub6r.png Graphic file (type bmp)
 <fig/sub6r.png>
- [36]
+ [38]
 File: fig/sub7r.png Graphic file (type bmp)
 <fig/sub7r.png>
 File: fig/sub8r.png Graphic file (type bmp)
@@ -575,22 +563,17 @@ File: fig/sub9r.png Graphic file (type bmp)
 <fig/sub9r.png>
 File: fig/sub10r.png Graphic file (type bmp)
 <fig/sub10r.png>
- [37] [38]
+ [39] [40]
 File: fig/boxplot_angle.png Graphic file (type bmp)
 <fig/boxplot_angle.png>
 File: fig/boxplot_accel.png Graphic file (type bmp)
 <fig/boxplot_accel.png>
- [39]
-Overfull \hbox (10.64557pt too wide) in paragraph at lines 257--266
- [][] 
- []
-
-) [40]
+ [41]) [42]
 \openout2 = `_ch5.aux'.
 
  (./_ch5.tex
 第5章
-) [41
+) [43
 
 
 
@@ -603,24 +586,27 @@ LaTeX Font Info:    Font shape `JY1/gt/m/it' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 9.60999pt on input line 6.
- [42
+ [44
 
 
-] [43] [44] [45]) [46]
+] [45] [46] [47])
+Overfull \hbox (24.07748pt too wide) in paragraph at lines 79--80
+\OT1/cmr/m/n/10 [65] \JY1/mc/m/n/10 河内まき子 ， \OT1/cmr/m/n/10 2012,AIST \JY
+1/mc/m/n/10 日本人の手の寸法デ ータ\OT1/cmr/m/n/10 ,https://unit.aist.go.jp/hir
+i/dhrg/ja/dhdb/hand/index.html 
+ []
+
+[48]
 No file _thesis.ind.
-(./_thesis.aux (./_ch1.aux) (./_ch2.aux) (./_ch3.aux) (./_ch4.aux) (./_ch5.aux)
-)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./_thesis.aux (./abstract.aux) (./_ch1.aux) (./_ch2.aux) (./_ch3.aux)
+(./_ch4.aux) (./_ch5.aux)) ) 
 Here is how much of TeX's memory you used:
- 2929 strings out of 493281
- 36969 string characters out of 6145041
- 107386 words of memory out of 5000000
- 6694 multiletter control sequences out of 15000+600000
+ 2966 strings out of 493281
+ 37441 string characters out of 6145041
+ 107703 words of memory out of 5000000
+ 6714 multiletter control sequences out of 15000+600000
  18305 words of font info for 83 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 34i,13n,27p,985b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,13n,27p,1874b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _thesis.dvi (48 pages, 136572 bytes).
+Output written on _thesis.dvi (51 pages, 152744 bytes).

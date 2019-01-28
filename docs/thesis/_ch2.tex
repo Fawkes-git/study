@@ -51,8 +51,6 @@ $r$は定数であり，デバイス使用前に物差しやスケール等を�
 $x$は本デバイスの赤外線距離センサによって推定する．$x$の推定方法は後述する．
 この$r,x$の二つのパラメータと式\ref{eq:theta}を用いることで，関節角度$\theta$を推定する．
 
-
-
 \section{ウェアラブルデバイスのハードウェア}
 本デバイスは加速度計と赤外線距離センサの2つのセンシング部と，センシングされたデータを格納するデータ記録部からなるウェアラブルデバイスである．
 本研究で開発したウェアラブルデバイスをFig.\ref{fig:device}に示す．
@@ -77,16 +75,16 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
 フォトトランジスタの受光量は，ランベルトの反射の性質を有し，光が反射物に反射し受光素子に当たるまでの距離と角度，反射物の反射率により決定される(逆自乗の法則)．そのため，センシングキャリブレーションを行った．センシングキャリブレーションに関しては後述する．
 外部から入る光によるノイズを抑えるため，発光ダイオードとフォトトランジスタはそれぞれ6$^\circ$と12$^\circ$の狭い視覚野を持つパーツを選定した．手指の関節角度を測定するため，赤外線距離センサを指に取り付ける必要がある．
 しかし，直接，テープや手袋などで赤外線距離センサを，ユーザの指に取り付けると，デバイスの装着や取り外しが煩雑になり，
-ユーザへの負担が大きくなる問題が生じる．そのため，指輪型のハードウェアへ赤外線距離センサを取り付けた．これにより，ユーザにかかるデバイスの着脱による負荷を低減した．指輪型のハードウェアは3次元コンピュータ支援設計ソフトウェア(Three-dimensional computer-assisted drafting:3DCAD)で設計後，3Dプリンタを用いて作成した．
+ユーザへの負担が大きくなる問題が生じる．そのため，指輪型のハードウェアへ赤外線距離センサを取り付けた．これにより，ユーザにかかるデバイスの着脱による負荷を低減した．指輪型のハードウェアは3DCADで設計後，3Dプリンタを用いて作成した．
 
 指輪型ハードウェアの大きさが，ユーザの指の太さと合っていない場合，センサのずれやユーザビリティの低下等の問題が発生する．
 ユーザごとに指の太さが異なることが予想されるため，指輪の直径が異なる複数の指輪型のハードウェアを作成した．
-日本人の平均的な食指の直径は，男性の場合19.6mm,SD=1.1，女性の場合17.5,SD=0.8である[57]．
+日本人の平均的な食指の直径は，男性の場合19.6mm,SD=1.1，女性の場合17.5,SD=0.8である[65]．
 そのため17,18,19,20,21mmの直径を持つ指輪型ハードウェアを作成した．
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{fig/fal7}
+  \includegraphics[width=0.8\linewidth]{fig/ring_led}
   \caption{Infrared distance sensor consists of LED and Phototransistor}
   \label{fig:distance sensor}
 \end{figure}
@@ -102,13 +100,13 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
   \centering
   \begin{tabular}{ll} 
     \hline \hline
-測定レンジ&±２Ｇ\\
-感度&６６０ｍＶ／ｇ　ｔｙｐ\\
-測定出力&３軸アナログ出力（ＸＹＺ）\\
-非直線性誤差&０．１％ＦＳ\\
-出力帯域幅&８００Ｈｚ　（－３ｄＢ）\\
-定格電源電圧&３．３Ｖ\\
-動作電圧範囲&２．５Ｖｍｉｎ～５．２５Ｖｍａｘ\\
+測定レンジ&$\pm$ 2G\\
+感度&660mV/g\\
+測定出力&３軸アナログ出力(X,Y,Z)\\
+非直線性誤差&0.1\%FS\\
+出力帯域幅&800Hz\\
+定格電源電圧&3.3V\\
+動作電圧範囲&2.5$\sim$5.25V\\
     \hline
   \end{tabular}
 \end{table}
@@ -160,7 +158,7 @@ $x$は本デバイスの赤外線距離センサによって推定する．$x$�
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\linewidth]{fig/ph}
+  \includegraphics[width=0.5\linewidth]{fig/ph}
   \caption{connecter}
   \label{fig:connecter}
 \end{figure}
@@ -202,7 +200,7 @@ Adafruit Feather M0 adaloggerのA2ピンはアナログピンであり，加速�
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\linewidth]{fig/usbconne}
+  \includegraphics[width=0.5\linewidth]{fig/usbconne}
   \caption{USB connecter}
   \label{fig:USB connecter}
 \end{figure}
@@ -221,7 +219,7 @@ USB接続がない場合は，データロガーモードに入る．microSDカ�
 腕輪型ハードウェアから出ているオス側のコネクタを，指輪型ハードウェアのメス型コネクタへ接続して使用する．
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.3\linewidth]{fig/connecter.jpg}
+  \includegraphics[width=0.5\linewidth]{fig/connecter.jpg}
   \caption{QI connecter}
   \label{fig:QI connecter}
 \end{figure}
@@ -303,7 +301,7 @@ USB接続がない場合は，データロガーモードに入る．microSDカ�
 \end{figure}
 
 \section{センシング情報の処理方法}
-アナログセンサの電圧値は$2^10$の分解能を持つデジタル信号に変換される．
+アナログセンサの電圧値は$2^{10}$の分解能を持つデジタル信号に変換される．
 センサ情報の前処理として，複数の処理を行った．
 まず始めに，センシング情報の補完を行なった．
 センシングのサンプルレートは100Hzであるが，Arduinoにより得られる赤外線距離センサと加速度センサ情報のタイムスタンプは正確に，0.01秒刻みで得ることができない．なぜならば，センサ情報の取得にはArduino内部のプログラムを用いており，センサ情報を取得するために，0.01秒ごとにプログラムをループしているため，プログラムの実行時間にずれが生じるからである．また，本実験で用いている，Arduinoボード(Adafruits Feather M0)は48MHz動作のArduinoボードであり,このArduinoの時間分解能は12マイクロ秒であることも理由の一つである．
@@ -320,8 +318,9 @@ USB接続がない場合は，データロガーモードに入る．microSDカ�
 \begin{enumerate}
  \item 線形補間により，センシングデータを100Hzのデータに変換した．
  \item 100Hzのサンプリングレートをもつセンシングデータに対し25Hzのローパスフィルタをかけノイズを除去した．
-\item 関節角度が90度，0度のときのセンシングデータを利用し，キャリブレーションを行った．
+ \item 関節角度が90度，0度のときのセンシングデータを利用し，キャリブレーションを行った．
  \item 1次元線形回帰により、センシングデータを，センサから指までの距離へ変換した．
+ \item 光の強さが光源からの距離の2乗に反比例する(逆二乗の法則)ため，距離データの補正を行なった．
  \item 式\ref{eq:theta}により，距離を角度に変換した．
  \item 角度を時間微分し，0.01秒間の変化角度(角速度)を導出した．
  \item 加速度を時間微分し，0.01秒間の加加速度(躍度)を導出した．
@@ -333,7 +332,7 @@ USB接続がない場合は，データロガーモードに入る．microSDカ�
 
 以下に，関節角度のデータから指の使用量を導出する，データ処理方法を記述する．
 \begin{table}[H]
-  \caption{日常生活動作とリハビリテーションタスク}
+  \caption{Tasks}
   \label{table:tasks}
   \centering
   \begin{tabular}{ll}
@@ -356,7 +355,7 @@ USB接続がない場合は，データロガーモードに入る．microSDカ�
 被験者は両手を用い，布巾を四つ折りに畳む，広げるを繰り返す．\\
 
 Hole peg testを行う&
-被験者は利き手で十本のペグをホールに入れ,全てのペグをホールから抜き出すを繰り返す．\\
+被験者は利き手で十本のペグをホールに入れ,全てのペグをホールから抜き出す．\\
 
     \hline
   \end{tabular}
@@ -400,12 +399,14 @@ Aggrigated\ angle  = \sum_{i=1}^n |\omega_i|
 
 ここで，nはタスクごとのサンプル数であるため，300秒$\times$100Hzより,
 $n=30000$である．
+\ref{fig:agg_angle}は5分間のタスクごとに，関節角度の変化量の合計を示したグラフである．
+
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/aggrigated_angle}
   \caption{Data processing aggrigated angle}
-  \label{fig:accel_xyz}
+  \label{fig:agg_angle}
 \end{figure}
 
 
@@ -437,7 +438,7 @@ $a_{x,i}, a_{y,i},a_{z,i}$をx,y,z軸の$i$秒の時の加速度とする．ま�
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/jerk_xyz}
-  \caption{jerk}
+  \caption{Data processing each axial jerk}
   \label{fig:jerk_xyz}
 \end{figure}
 
@@ -453,7 +454,7 @@ j_{norm,i} = \sqrt{{j_{x,i}}^2+{j_{y,i}}^2+{j_{z,i}}^2}
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/norm_jerk}
-  \caption{The Norm of jerk}
+  \caption{Data processing norm of jerk}
   \label{fig:norm_jerk}
 \end{figure}
 
@@ -464,11 +465,12 @@ Aggrigated\ accleration  = \sum_{i=1}^n j_{norm,i}
 
 ここで，nはタスクごとのサンプル数であるため，300秒$\times$100Hzより,
 $n=30000$である．
+\ref{fig:agg_accel}は5分間のタスクごとに，加速度の合計を示したグラフである．
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{fig/aggrigated_accel}
-  \caption{Data processing acceleration}
-  \label{fig:accel_xyz}
+  \caption{Data processing aggrigated acceleration}
+  \label{fig:agg_accel}
 \end{figure}
 

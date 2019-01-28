@@ -18,17 +18,24 @@ Steven~R Zeiler, Robert Hubbard, Ellen~M Gibson, Tony Zheng, Kwan Ng, O~Brien,
 \newblock {a Second Stroke : Re-Opening a Post-Ischemic Sensitive Period}.
 \newblock Vol.~30, No.~8, pp. 794--800, 2017.
 
+\bibitem{Mlinac2016}
+Michelle~E. Mlinac and Michelle~C. Feng.
+\newblock {Assessment of Activities of Daily Living, Self-Care, and
+  Independence}.
+\newblock {\em Archives of Clinical Neuropsychology}, Vol.~31, No.~6, pp.
+  506--516, 2016.
+
+\bibitem{Langhorne2011}
+Peter Langhorne, Julie Bernhardt, and Gert Kwakkel.
+\newblock {Stroke rehabilitation}.
+\newblock {\em The Lancet}, Vol. 377, No. 9778, pp. 1693--1702, 2011.
+
 \bibitem{Lang2013}
 Catherine~E. Lang, Marghuretta~D. Bland, Ryan~R. Bailey, Sydney~Y. Schaefer,
   and Rebecca~L. Birkenmeier.
 \newblock {Assessment of upper extremity impairment, function, and activity
   after stroke: Foundations for clinical decision making}.
 \newblock {\em Journal of Hand Therapy}, Vol.~26, No.~2, pp. 104--115, 2013.
-
-\bibitem{Langhorne2011}
-Peter Langhorne, Julie Bernhardt, and Gert Kwakkel.
-\newblock {Stroke rehabilitation}.
-\newblock {\em The Lancet}, Vol. 377, No. 9778, pp. 1693--1702, 2011.
 
 \bibitem{Hsieh2009}
 Yu~Wei Hsieh, Ching~Yi Wu, Keh~Chung Lin, Ya~Fen Chang, Chia~Ling Chen, and
@@ -151,6 +158,10 @@ Alan Sunderland.
 \newblock {Arm function after stroke. An evaluation of grip strength}.
 \newblock {\em Management}, pp. 1267--1272, 1989.
 
+\bibitem{Mathiowetz}
+Virgil Mathiowetz.
+\newblock {Adult Nonns For The Nine Hole Peg Test OfFinger Dexterity}.
+
 \bibitem{Shima2009}
 Keisuke Shima, Toshio Tsuji, Akihiko Kandori, Masaru Yokoe, and Saburo Sakoda.
 \newblock {Measurement and evaluation of finger tapping movements using
@@ -222,12 +233,6 @@ Pamela~W. Duncan, Dean~M. Reker, Ronnie~D. Horner, Gregory~P. Samsa, Helen
   outcome measure, the Stroke Impact Scale}.
 \newblock {\em Clinical Rehabilitation}, Vol.~16, No.~5, pp. 493--505, 2002.
 
-\bibitem{Duncan2002a}
-Pamela~W. Duncan, Sue~Min Lai, Denise Tyler, Subashan Perera, Dean~M. Reker,
-  and Stephanie Studenski.
-\newblock {Evaluation of proxy responses to the Stroke Impact Scale}.
-\newblock {\em Stroke}, Vol.~33, No.~11, pp. 2593--2599, 2002.
-
 \bibitem{Duncan2003}
 Pamela~W. Duncan, Rita~K. Bode, Sue~Min Lai, and Subashan Perera.
 \newblock {Rasch analysis of a new stroke-specific outcome scale: The stroke
@@ -269,12 +274,14 @@ R{\"{u}}diger~J. Seitz, Tim Hildebold, and Karin Simeria.
   marker for early recovery after stroke}.
 \newblock {\em Journal of Neurology}, Vol. 258, No.~3, pp. 457--463, 2011.
 
-\bibitem{Ullery2015}
-B.~W. Ullery, J.~T. Lee, and R.~L. Dalman.
-\newblock {Snorkel/chimney and fenestrated endografts for complex abdominal
-  aortic aneurysms}.
-\newblock {\em Journal of Cardiovascular Surgery}, Vol.~56, No.~5, pp.
-  707--717, 2015.
+\bibitem{Uswatte2006}
+Gitendra Uswatte, Carol Giuliani, Carolee Winstein, Angelique Zeringue, Laura
+  Hobbs, and Steven~L. Wolf.
+\newblock {Validity of Accelerometry for Monitoring Real-World Arm Activity in
+  Patients With Subacute Stroke: Evidence From the Extremity Constraint-Induced
+  Therapy Evaluation Trial}.
+\newblock {\em Archives of Physical Medicine and Rehabilitation}, Vol.~87,
+  No.~10, pp. 1340--1345, 2006.
 
 \bibitem{Lang2007}
 Catherine~E. Lang, Joanne~M. Wagner, Dorothy~F. Edwards, and Alexander~W.
@@ -291,14 +298,12 @@ Debbie Rand and Janice~J. Eng.
 \newblock {\em Neurorehabilitation and Neural Repair}, Vol.~26, No.~1, pp.
   76--84, 2012.
 
-\bibitem{Uswatte2006}
-Gitendra Uswatte, Carol Giuliani, Carolee Winstein, Angelique Zeringue, Laura
-  Hobbs, and Steven~L. Wolf.
-\newblock {Validity of Accelerometry for Monitoring Real-World Arm Activity in
-  Patients With Subacute Stroke: Evidence From the Extremity Constraint-Induced
-  Therapy Evaluation Trial}.
-\newblock {\em Archives of Physical Medicine and Rehabilitation}, Vol.~87,
-  No.~10, pp. 1340--1345, 2006.
+\bibitem{Ullery2015}
+B.~W. Ullery, J.~T. Lee, and R.~L. Dalman.
+\newblock {Snorkel/chimney and fenestrated endografts for complex abdominal
+  aortic aneurysms}.
+\newblock {\em Journal of Cardiovascular Surgery}, Vol.~56, No.~5, pp.
+  707--717, 2015.
 
 \bibitem{Lin2018}
 Bor~Shing Lin, I.~Jung Lee, Shu~Yu Yang, Yi~Chiang Lo, Junghsi Lee, and
@@ -364,6 +369,24 @@ Zhou Ren, Jingjing Meng, and Junsong Yuan.
 \newblock {\em IEEE International Conference on Information Communication and
   Signal Processing}, No.~1, pp. 3--7, 2011.
 
+\bibitem{DeZambotti2017}
+Massimiliano de~Zambotti, Leonardo Rosas, Ian~M. Colrain, and Fiona~C. Baker.
+\newblock {The Sleep of the Ring: Comparison of the ^^c5^^8cURA Sleep Tracker
+  Against Polysomnography}.
+\newblock {\em Behavioral Sleep Medicine}, Vol.~00, No.~00, pp. 1--15, 2017.
+
+\bibitem{Wang2013}
+Junbo Wang.
+\newblock {Magic Ring : A Self-contained Gesture Input Device on Finger}.
+\newblock {\em Proceedings of the 12th International Conference on Mobile and
+  Ubiquitous Multimedia}, pp. 3--6, 2013.
+
+\bibitem{Ogata2012}
+Masa Ogata, Yuta Sugiura, Hirotaka Osawa, and Michita Imai.
+\newblock {iRing: Intelligent Ring Using Infrared Reflection}.
+\newblock {\em Proceedings of the 25th annual ACM symposium on User interface
+  software and technology - UIST '12}, pp. 131--136, 2012.
+
 \bibitem{Utc2018}
 P~M Utc.
 \newblock {Adafruit Feather M0 Adalogger Power Pins Logic pins Micro SD Card +
@@ -403,5 +426,12 @@ Edward Taub, Karen McCulloch, Gitendra Uswatte, and David~M Morris.
 \newblock {Motor Activity Log (MAL) Manual}.
 \newblock {\em UAB CI Therapy Research Group http:// {\ldots}}, pp. 1--18,
   2011.
+
+\bibitem{Feys2017}
+Peter Feys, Ilse Lamers, Gordon Francis, Ralph Benedict, Glenn Phillips,
+  Nicholas LaRocca, Lynn~D. Hudson, and Richard Rudick.
+\newblock {The nine-hole peg test as a manual dexterity performance measure for
+  multiple sclerosis}.
+\newblock {\em Multiple Sclerosis Journal}, Vol.~23, No.~5, pp. 711--720, 2017.
 
 \end{thebibliography}
